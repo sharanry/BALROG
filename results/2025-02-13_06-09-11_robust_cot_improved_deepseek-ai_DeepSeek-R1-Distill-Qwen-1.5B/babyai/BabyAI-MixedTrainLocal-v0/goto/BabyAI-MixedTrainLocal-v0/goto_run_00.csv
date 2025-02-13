@@ -1,0 +1,233 @@
+Step,Action,Reasoning,Observation,Reward,Done
+0,Failed to obtain a valid action from the reasoning.,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 4 steps forward
+a wall 1 step left",0,False
+1,Failed to obtain a valid action from the reasoning.,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 3 steps forward
+a wall 1 step left",0,False
+2,toggle,<|ACTION|>toggle<|END|>,"a wall 3 steps forward
+a wall 1 step left",0,False
+3,go forward,<|ACTION|>go forward<|END|>,"a wall 2 steps forward
+a wall 1 step left",0,False
+4,Failed to obtain a valid action from the reasoning.,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step left",0,False
+5,go forward,<|ACTION|>go forward<|END|>,"a wall 1 step forward
+a wall 1 step left",0,False
+6,Failed to obtain a valid action from the reasoning.,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step left",0,False
+7,Failed to obtain a valid action from the reasoning.,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step left",0,False
+8,pick up,<|ACTION|>pick up<|END|>,"a wall 1 step forward
+a wall 1 step left",0,False
+9,toggle,<|ACTION|>toggle<|END|>,"a wall 1 step forward
+a wall 1 step left",0,False
+10,pick up,<|ACTION|>pick up<|END|>,"a wall 1 step forward
+a wall 1 step left",0,False
+11,Failed to obtain a valid action from the reasoning.,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step left",0,False
+12,go forward,<|ACTION|>go forward<|END|>,"a wall 1 step forward
+a wall 1 step left",0,False
+13,Failed to obtain a valid action from the reasoning.,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step left",0,False
+14,go forward,<|ACTION|>go forward<|END|>,"a wall 1 step forward
+a wall 1 step left",0,False
+15,Failed to obtain a valid action from the reasoning.,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step left",0,False
+16,go forward,<|ACTION|>go forward<|END|>,"a wall 1 step forward
+a wall 1 step left",0,False
+17,Failed to obtain a valid action from the reasoning.,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step left",0,False
+18,go forward,<|ACTION|>go forward<|END|>,"a wall 1 step forward
+a wall 1 step left",0,False
+19,go forward,<|ACTION|>go forward<|END|>,"a wall 1 step forward
+a wall 1 step left",0,False
+20,Failed to obtain a valid action from the reasoning.,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step left",0,False
+21,go forward,<|ACTION|>go forward<|END|>,"a wall 1 step forward
+a wall 1 step left",0,False
+22,Failed to obtain a valid action from the reasoning.,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step left",0,False
+23,turn right,"<|ACTION|>turn right<|END|>
+<|ACTION|>take a step forward<|END|>","a wall 6 steps forward
+a wall 1 step left
+a green key 3 steps right and 4 steps forward",0,False
+24,Failed to obtain a valid action from the reasoning.,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 5 steps forward
+a wall 1 step left
+a green key 3 steps right and 3 steps forward",0,False
+25,Failed to obtain a valid action from the reasoning.,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 4 steps forward
+a wall 1 step left
+a green key 3 steps right and 2 steps forward",0,False
+26,go forward,<|ACTION|>go forward<|END|>,"a wall 3 steps forward
+a wall 1 step left
+a green key 3 steps right and 1 step forward",0,False
+27,go forward,<|ACTION|>go forward<|END|>,"a wall 2 steps forward
+a wall 1 step left
+a green key 3 steps right",0,False
+28,go forward,<|ACTION|>go forward<|END|>,"a wall 1 step forward
+a wall 1 step left",0,False
+29,turn right,<|ACTION|>turn right<|END|>,"a wall 6 steps forward
+a wall 1 step left
+a green key 1 step right and 3 steps forward",0,False
+30,turn right,<|ACTION|>turn right<|END|>,"a wall 6 steps forward
+a wall 1 step right
+a green key 3 steps left and 1 step forward",0,False
+31,turn left,<|ACTION|>turn left<|END|>,"a wall 6 steps forward
+a wall 1 step left
+a green key 1 step right and 3 steps forward",0,False
+32,go forward,<|ACTION|>go forward<|END|>,"a wall 5 steps forward
+a wall 1 step left
+a green key 1 step right and 2 steps forward",0,False
+33,turn right,<|ACTION|>turn right<|END|>,"a wall 6 steps forward
+a wall 2 steps right
+a green key 2 steps left and 1 step forward",0,False
+34,go forward,<|ACTION|>go forward<|END|>,"a wall 5 steps forward
+a wall 2 steps right
+a green key 2 steps left",0,False
+35,left twice,<|ACTION|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>left twice<|END|>,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 4 steps forward
+a wall 2 steps right",0,False
+36,go forward,<|ACTION|>go forward<|END|>,"a wall 3 steps forward
+a wall 2 steps right",0,False
+37,pick up,<|ACTION|>pick up<|END|>,"a wall 3 steps forward
+a wall 2 steps right",0,False
+38,pick up,<|ACTION|>pick up<|END|>,"a wall 3 steps forward
+a wall 2 steps right",0,False
+39,go forward,<|ACTION|>go forward<|END|>,"a wall 2 steps forward
+a wall 2 steps right",0,False
+40,go forward,<|ACTION|>go forward<|END|>,"a wall 1 step forward
+a wall 2 steps right",0,False
+41,Failed to obtain a valid action from the reasoning.,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 2 steps right",0,False
+42,pick up,<|ACTION|>pick up<|END|>,"a wall 1 step forward
+a wall 2 steps right",0,False
+43,pick up,<|ACTION|>pick up<|END|>,"a wall 1 step forward
+a wall 2 steps right",0,False
+44,go forward,<|ACTION|>go forward<|END|>,"a wall 1 step forward
+a wall 2 steps right",0,False
+45,pick up,<|ACTION|>pick up<|END|>,"a wall 1 step forward
+a wall 2 steps right",0,False
+46,pick up,<|ACTION|>pick up<|END|>,"a wall 1 step forward
+a wall 2 steps right",0,False
+47,go forward,<|ACTION|>go forward<|END|>,"a wall 1 step forward
+a wall 2 steps right",0,False
+48,go forward,<|ACTION|>go forward<|END|>,"a wall 1 step forward
+a wall 2 steps right",0,False
+49,go forward,<|ACTION|>go forward<|END|>,"a wall 1 step forward
+a wall 2 steps right",0,False
+50,Failed to obtain a valid action from the reasoning.,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 2 steps right",0,False
+51,Failed to obtain a valid action from the reasoning.,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 2 steps right",0,False
+52,turn right,"<|ACTION|>turn right<|END|>
+<|ACTION|>go forward<|END|>
+<|Action|>toggle<|END|>","a wall 2 steps forward
+a wall 1 step left",0,False
+53,go forward,<|ACTION|>go forward<|END|>,"a wall 1 step forward
+a wall 1 step left",0,False
+54,go forward,<|ACTION|>go forward<|END|>,"a wall 1 step forward
+a wall 1 step left",0,False
+55,go forward,<|ACTION|>go forward<|END|>,"a wall 1 step forward
+a wall 1 step left",0,False
+56,go forward,<|ACTION|>go forward<|END|>,"a wall 1 step forward
+a wall 1 step left",0,False
+57,go forward,<|ACTION|>go forward<|END|>,"a wall 1 step forward
+a wall 1 step left",0,False
+58,go forward,<|ACTION|>go forward<|END|>,"a wall 1 step forward
+a wall 1 step left",0,False
+59,go forward,<|ACTION|>go forward<|END|>,"a wall 1 step forward
+a wall 1 step left",0,False
+60,go forward,<|ACTION|>go forward<|END|>,"a wall 1 step forward
+a wall 1 step left",0,False
+61,go forward,<|ACTION|>go forward<|END|>pick up<|END|>,"a wall 1 step forward
+a wall 1 step left",0,False
+62,go forward,<|ACTION|>go forward<|END|>,"a wall 1 step forward
+a wall 1 step left",0,False
+63,Failed to obtain a valid action from the reasoning.,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step left",0,True

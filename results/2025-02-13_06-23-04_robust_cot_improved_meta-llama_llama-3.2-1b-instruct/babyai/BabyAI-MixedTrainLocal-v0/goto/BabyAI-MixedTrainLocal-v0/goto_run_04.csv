@@ -1,0 +1,5 @@
+Step,Action,Reasoning,Observation,Reward,Done
+0,go forward,"I will choose to go forward.
+
+<|ACTION|>go forward<|END|>","a wall 1 step right
+a purple key 1 step forward",0.9859375,True

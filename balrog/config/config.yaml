@@ -26,9 +26,10 @@ eval:
   feedback_on_invalid_action : True       # Whether to provide feedback on invalid actions
 
 client:
-  client_name: openai           # LLM client to use (e.g., 'openai', 'gemini', 'claude')
-  model_id: gpt-4o              # Model identifier (e.g., 'gpt-4', 'gpt-3.5-turbo')
-  base_url: http://localhost:8080/v1   # Base URL for the API (if using a local server)
+  client_name: openrouter           # LLM client to use (e.g., 'openai', 'gemini', 'claude')
+  model_id: meta-llama/llama-3.2-1b-instruct
+  # model_id: deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B
+  base_url: https://openrouter.ai/api/v1   # Base URL for the API (if using a local server)
   generate_kwargs:
     temperature: 0.0            # Sampling temperature; 0.0 makes the output deterministic
     max_tokens: 4096            # Max tokens to generate in the response
@@ -38,7 +39,8 @@ client:
   alternate_roles: False        # Whether the client requires alternating between the agent and the environment
 
 envs:
-  names: babyai-babaisai-textworld-crafter-nle-minihack   # Environments to evaluate, separated by hyphens
+  # names: babyai-babaisai-textworld-crafter-nle-minihack   # Environments to evaluate, separated by hyphens
+  names: babyai   # Environments to evaluate, separated by hyphens
   env_kwargs:
     seed: null                # Random seed; null means a random seed is used
   nle_kwargs:
@@ -98,10 +100,10 @@ tasks:
 
   babyai_tasks:
     - "BabyAI-MixedTrainLocal-v0/goto"
-    - "BabyAI-MixedTrainLocal-v0/pickup"
-    - "BabyAI-MixedTrainLocal-v0/open"
-    - "BabyAI-MixedTrainLocal-v0/putnext"
-    - "BabyAI-MixedTrainLocal-v0/pick_up_seq_go_to"
+    # - "BabyAI-MixedTrainLocal-v0/pickup"
+    # - "BabyAI-MixedTrainLocal-v0/open"
+    # - "BabyAI-MixedTrainLocal-v0/putnext"
+    # - "BabyAI-MixedTrainLocal-v0/pick_up_seq_go_to"
 
   textworld_tasks:
     - "treasure_hunter"

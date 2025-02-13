@@ -1,0 +1,196 @@
+Step,Action,Reasoning,Observation,Reward,Done
+0,Failed to obtain a valid action from the reasoning.,"I will think carefully about the best course of action.
+
+Since I am currently standing 1 step forward and 2 steps to the left of the green box, I will choose to go forward.","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 2 steps left",0,False
+1,go forward,<|ACTION|>go forward<|END|>,"a wall 1 step forward
+a wall 2 steps left",0,False
+2,Failed to obtain a valid action from the reasoning.,move forward,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 2 steps left",0,False
+3,Failed to obtain a valid action from the reasoning.,move forward,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 2 steps left",0,False
+4,turn left,<|ACTION|>turn left<|END|>,"a wall 2 steps forward
+a wall 1 step right",0,False
+5,turn right,<|ACTION|>turn right<|END|>,"a wall 1 step forward
+a wall 2 steps left",0,False
+6,turn right,<|ACTION|>turn right<|END|>,"a wall 5 steps forward
+a wall 1 step left
+a green box 3 steps right and 3 steps forward",0,False
+7,turn right,<|ACTION|>turn right<|END|>,"a wall 6 steps forward
+a wall 2 steps right
+a green box 3 steps left and 3 steps forward",0,False
+8,turn right,<|ACTION|>turn right<|END|>,"a wall 2 steps forward
+a wall 1 step right",0,False
+9,turn right,<|ACTION|>turn right<|END|>,"a wall 1 step forward
+a wall 2 steps left",0,False
+10,turn left,<|ACTION|>turn left<|END|>,"a wall 2 steps forward
+a wall 1 step right",0,False
+11,turn right,<|ACTION|>turn right<|END|>,"a wall 1 step forward
+a wall 2 steps left",0,False
+12,turn left,<|ACTION|>turn left<|END|>,"a wall 2 steps forward
+a wall 1 step right",0,False
+13,Failed to obtain a valid action from the reasoning.,"I'll think carefully about the situation.
+
+Since I'm currently 2 steps forward and I see a wall to my right, I will turn right.","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+14,turn right,"I'll think carefully about the best course of action.
+
+Since I'm currently standing on a wall and I see a wall to my right, I will turn right.
+
+<|ACTION|>turn right<|END|>","a wall 1 step forward
+a wall 1 step left",0,False
+15,turn left,<|ACTION|>turn left<|END|>,"a wall 1 step forward
+a wall 1 step right",0,False
+16,turn left,<|ACTION|>turn left<|END|>,"a wall 6 steps forward
+a wall 1 step right",0,False
+17,turn right,<|ACTION|>turn right<|END|>,"a wall 1 step forward
+a wall 1 step right",0,False
+18,turn right,<|ACTION|>turn right<|END|>,"a wall 1 step forward
+a wall 1 step left",0,False
+19,turn left,<|ACTION|>turn left<|END|>,"a wall 1 step forward
+a wall 1 step right",0,False
+20,turn left,<|ACTION|>turn left<|END|>,"a wall 6 steps forward
+a wall 1 step right",0,False
+21,turn right,<|ACTION|>turn right<|END|>,"a wall 1 step forward
+a wall 1 step right",0,False
+22,turn right,<|ACTION|>turn right<|END|>,"a wall 1 step forward
+a wall 1 step left",0,False
+23,turn left,<|ACTION|>turn left<|END|>,"a wall 1 step forward
+a wall 1 step right",0,False
+24,turn right,<|ACTION|>turn right<|END|>,"a wall 1 step forward
+a wall 1 step left",0,False
+25,turn left,<|ACTION|>turn left<|END|>,"a wall 1 step forward
+a wall 1 step right",0,False
+26,turn right,<|ACTION|>turn right<|END|>,"a wall 1 step forward
+a wall 1 step left",0,False
+27,Failed to obtain a valid action from the reasoning.,"I will think carefully about the situation.
+
+Since I am currently standing 1 step forward and 1 step to the left, I will choose to turn right.","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step left",0,False
+28,turn right,<|ACTION|>turn right<|END|>,"a wall 6 steps forward
+a wall 1 step left
+a green box 3 steps right and 4 steps forward",0,False
+29,Failed to obtain a valid action from the reasoning.,move forward,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 5 steps forward
+a wall 1 step left
+a green box 3 steps right and 3 steps forward",0,False
+30,turn right,<|ACTION|>turn right<|END|>,"a wall 6 steps forward
+a wall 2 steps right
+a green box 3 steps left and 3 steps forward",0,False
+31,turn left,<|ACTION|>turn left<|END|>,"a wall 5 steps forward
+a wall 1 step left
+a green box 3 steps right and 3 steps forward",0,False
+32,turn right,<|ACTION|>turn right<|END|>,"a wall 6 steps forward
+a wall 2 steps right
+a green box 3 steps left and 3 steps forward",0,False
+33,turn right,<|ACTION|>turn right<|END|>,"a wall 2 steps forward
+a wall 1 step right",0,False
+34,turn right,<|ACTION|>turn right<|END|>,"a wall 1 step forward
+a wall 2 steps left",0,False
+35,turn left,<|ACTION|>turn left<|END|>,"a wall 2 steps forward
+a wall 1 step right",0,False
+36,turn left,<|ACTION|>turn left<|END|>,"a wall 6 steps forward
+a wall 2 steps right
+a green box 3 steps left and 3 steps forward",0,False
+37,turn right,<|ACTION|>turn right<|END|>,"a wall 2 steps forward
+a wall 1 step right",0,False
+38,turn right,<|ACTION|>turn right<|END|>,"a wall 1 step forward
+a wall 2 steps left",0,False
+39,turn left,<|ACTION|>turn left<|END|>,"a wall 2 steps forward
+a wall 1 step right",0,False
+40,turn right,<|ACTION|>turn right<|END|>,"a wall 1 step forward
+a wall 2 steps left",0,False
+41,turn left,<|ACTION|>turn left<|END|>,"a wall 2 steps forward
+a wall 1 step right",0,False
+42,turn right,<|ACTION|>turn right<|END|>,"a wall 1 step forward
+a wall 2 steps left",0,False
+43,turn right,<|ACTION|>turn right<|END|>,"a wall 5 steps forward
+a wall 1 step left
+a green box 3 steps right and 3 steps forward",0,False
+44,turn right,<|ACTION|>turn right<|END|>,"a wall 6 steps forward
+a wall 2 steps right
+a green box 3 steps left and 3 steps forward",0,False
+45,turn right,<|ACTION|>turn right<|END|>,"a wall 2 steps forward
+a wall 1 step right",0,False
+46,turn right,<|ACTION|>turn right<|END|>,"a wall 1 step forward
+a wall 2 steps left",0,False
+47,turn right,"I think I have it!
+
+I will choose to turn right.
+
+<|ACTION|>turn right<|END|>","a wall 5 steps forward
+a wall 1 step left
+a green box 3 steps right and 3 steps forward",0,False
+48,turn right,<|ACTION|>turn right<|END|>,"a wall 6 steps forward
+a wall 2 steps right
+a green box 3 steps left and 3 steps forward",0,False
+49,turn right,<|ACTION|>turn right<|END|>,"a wall 2 steps forward
+a wall 1 step right",0,False
+50,turn right,<|ACTION|>turn right<|END|>,"a wall 1 step forward
+a wall 2 steps left",0,False
+51,turn right,<|ACTION|>turn right<|END|>,"a wall 5 steps forward
+a wall 1 step left
+a green box 3 steps right and 3 steps forward",0,False
+52,turn right,<|ACTION|>turn right<|END|>,"a wall 6 steps forward
+a wall 2 steps right
+a green box 3 steps left and 3 steps forward",0,False
+53,turn right,<|ACTION|>turn right<|END|>,"a wall 2 steps forward
+a wall 1 step right",0,False
+54,turn right,<|ACTION|>turn right<|END|>,"a wall 1 step forward
+a wall 2 steps left",0,False
+55,turn right,<|ACTION|>turn right<|END|>,"a wall 5 steps forward
+a wall 1 step left
+a green box 3 steps right and 3 steps forward",0,False
+56,turn right,"I'll think carefully about the best course of action.
+
+Since the green box is 3 steps right and 3 steps forward, I'll try to move towards it. I'll turn right to move forward 3 steps.
+
+<|ACTION|>turn right<|END|>","a wall 6 steps forward
+a wall 2 steps right
+a green box 3 steps left and 3 steps forward",0,False
+57,turn right,<|ACTION|>turn right<|END|>,"a wall 2 steps forward
+a wall 1 step right",0,False
+58,turn right,<|ACTION|>turn right<|END|>,"a wall 1 step forward
+a wall 2 steps left",0,False
+59,turn right,<|ACTION|>turn right<|END|>,"a wall 5 steps forward
+a wall 1 step left
+a green box 3 steps right and 3 steps forward",0,False
+60,turn right,<|ACTION|>turn right<|END|>,"a wall 6 steps forward
+a wall 2 steps right
+a green box 3 steps left and 3 steps forward",0,False
+61,turn right,<|ACTION|>turn right<|END|>,"a wall 2 steps forward
+a wall 1 step right",0,False
+62,turn right,<|ACTION|>turn right<|END|>,"a wall 1 step forward
+a wall 2 steps left",0,False
+63,turn right,<|ACTION|>turn right<|END|>,"a wall 5 steps forward
+a wall 1 step left
+a green box 3 steps right and 3 steps forward",0,True

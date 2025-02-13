@@ -1,0 +1,42 @@
+{
+    "task": "BabyAI-MixedTrainLocal-v0/goto",
+    "action_frequency": {
+        "go forward": 3,
+        "turn left": 3
+    },
+    "input_tokens": 2190,
+    "output_tokens": 10439,
+    "done": true,
+    "episode_return": 0.915625,
+    "num_steps": 6,
+    "failed_candidates": [
+        "Failed to obtain a valid action from the reasoning.",
+        "Failed to obtain a valid action from the reasoning."
+    ],
+    "mission": "go to the purple box",
+    "progression": 1.0,
+    "process_num": "ForkProcess-1",
+    "seed": 3702116646,
+    "agent": {
+        "type": "robust_cot_improved",
+        "remember_cot": true,
+        "max_history": 16,
+        "max_image_history": 0,
+        "max_cot_history": 1,
+        "max_icl_history": 1000,
+        "cache_icl": false
+    },
+    "client": {
+        "client_name": "openrouter",
+        "model_id": "deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B",
+        "base_url": "https://openrouter.ai/api/v1",
+        "generate_kwargs": {
+            "temperature": 0.0,
+            "max_tokens": 4096
+        },
+        "timeout": 60,
+        "max_retries": 5,
+        "delay": 2,
+        "alternate_roles": false
+    }
+}

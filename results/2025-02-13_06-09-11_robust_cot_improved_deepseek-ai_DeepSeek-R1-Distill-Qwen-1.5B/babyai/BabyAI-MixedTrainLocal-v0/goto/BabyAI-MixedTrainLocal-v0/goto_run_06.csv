@@ -1,0 +1,740 @@
+Step,Action,Reasoning,Observation,Reward,Done
+0,Failed to obtain a valid action from the reasoning.,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 2 steps forward
+a wall 2 steps left",0,False
+1,Failed to obtain a valid action from the reasoning.,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 2 steps left",0,False
+2,turn left,"<|ACTION|>turn left<|END|>
+
+<|ACTION|>go forward<|END|>
+
+<|ACTION|>go forward<|END|>
+
+<|ACTION|>go forward<|END|>
+
+<|ACTION|>go forward<|END|>
+
+<|ACTION|>go forward<|END|>
+
+<|ACTION|>go forward<|END|>
+
+<|ACTION|>go forward<|END|>
+
+<|ACTION|>go forward<|END|>
+
+<|ACTION|>go forward<|END|>
+
+<|ACTION|>go forward<|END|>
+
+<|ACTION|>go forward<|END|>
+
+<|ACTION|>go forward<|END|>
+
+<|ACTION|>go forward<|END|>
+
+<|ACTION|>go forward<|END|>
+
+<|ACTION|>go forward<|END|>
+
+<|ACTION|>go forward<|END|>
+
+<|ACTION|>go forward<|END|>
+
+<|ACTION|>go forward<|END|>
+
+<|ACTION|>go forward<|END|>
+
+<|ACTION|>go forward<|END|>
+
+<|ACTION|>go forward<|END|>
+
+<|ACTION|>go forward<|END|>
+
+<|ACTION|>go forward<|END|>
+
+<|ACTION|>go forward<|END|>
+
+<|ACTION|>go forward<|END|>
+
+<|ACTION|>go forward<|END|>
+
+<|ACTION|>go forward<|END|>
+
+<|ACTION|>go forward<|END|>
+
+<|ACTION|>go forward<|END|>
+
+<|ACTION|>go forward<|END|>
+
+<|ACTION|>go forward<|END|>
+
+<|ACTION|>go forward<|END|>
+
+<|ACTION|>go forward<|END|>
+
+<|ACTION|>go forward<|END|>
+
+<|ACTION|>go forward<|END|>
+
+<|ACTION|>go forward<|END|>
+
+<|Action|>go forward<|END|>
+
+<|Action|>go forward<|END|>
+
+<|Action|>go forward<|END|>
+
+<|Action|>go forward<|END|>
+
+<|Action|>go forward<|END|>
+
+<|Action|>go forward<|END|>
+
+<|Action|>go forward<|END|>
+
+<|Action|>go forward<|END|>
+
+<|Action|>go forward<|END|>
+
+<|Action|>go forward<|END|>
+
+<|Action|>go forward<|END|>
+
+<|Action|>go forward<|END|>
+
+<|Action|>go forward<|END|>
+
+<|Action|>go forward<|END|>
+
+<|Action|>go forward<|END|>
+
+<|Action|>go forward<|END|>
+
+<|Action|>go forward<|END|>
+
+<|Action|>go forward<|END|>
+
+<|Action|>go forward<|END|>
+
+<|Action|>go forward<|END|>
+
+<|Action|>go forward<|END|>
+
+<|Action|>go forward<|END|>
+
+<|Action|>go forward<|END|>
+
+<|Action|>go forward<|END|>
+
+<|Action|>go forward<|END|>
+
+<|Action|>go forward<|END|>
+
+<|Action|>go forward<|END|>
+
+<|Action|>go forward<|END|>
+
+<|Action|>go forward<|END|>
+
+<|Action|>go forward<|END|>
+
+<|Action|>go forward<|END|>
+
+<|Action|>go forward<|END|>
+
+<|Action|>go forward<|END|>
+
+<|Action|>go forward<|END|>
+
+<|Action|>go forward<|END|>
+
+<|Action|>go forward<|END|>
+
+<|Action|>go forward<|END|>
+
+<|Action|>go forward<|END|>
+
+<|Action|>go forward<|END|>
+
+<|Action|>go forward<|END|>
+
+<|Action|>go forward<|END|>
+
+<|Action|>go forward<|END|>
+
+<|Action|>go forward<|END|>
+
+<|Action|>go forward<|END|>
+
+<|Action|>go forward<|END|>
+
+<|Action|>go forward<|END|>
+
+<|Action|>go forward<|END|>
+
+<|Action|>go forward<|END|>
+
+<|Action|>go forward<|END|>
+
+<|Action|>go forward<|END|>
+
+<|Action|>go forward<|END|>
+
+<|Action|>go forward<|END|>
+
+<|Action|>go forward<|END|>
+
+<|Action|>go forward<|END|>
+
+<|Action|>go forward<|END|>
+
+<|Action|>go forward<|END|>
+
+<|Action|>go forward<|END|>
+
+<|Action|>go forward<|END|>
+
+<|Action|>go forward<|END|>
+
+<|Action|>go forward<|END|>
+
+<|Action|>go forward<|END|>
+
+<|Action|>go forward<|END|>
+
+<|Action|>go forward<|END|>
+
+<|Action|>go forward<|END|>
+
+<|Action|>go forward<|END|>
+
+<|Action|>go forward<|END|>
+
+<|Action|>go forward<|END|>
+
+<|Action|>go forward<|END|>
+
+<|Action|>go forward<|END|>
+
+<|Action|>go forward<|END|>
+
+<|Action|>go forward<|END|>
+
+<|Action|>go forward<|END|>
+
+<|Action|>go forward<|END|>
+
+<|Action|>go forward<|END|>
+
+<|Action|>go forward<|END|>
+
+<|Action|>go forward<|END|>
+
+<|Action|>go forward<|END|>
+
+<|Action|>go forward<|END|>
+
+<|Action|>go forward<|END|>
+
+<|Action|>go forward<|END|>
+
+<|Action|>go forward<|END|>
+
+<|Action|>go forward<|END|>
+
+<|Action|>go forward<|END|>
+
+<|Action|>go forward<|END|>
+
+<|Action|>go forward<|END|>
+
+<|Action|>go forward<|END|>
+
+<|Action|>go forward<|END|>
+
+<|Action|>go forward<|END|>
+
+<|Action|>go forward<|END|>
+
+<|Action|>go forward<|END|>
+
+<|Action|>go forward<|END|>
+
+<|Action|>go forward<|END|>
+
+<|Action|>go forward<|END|>
+
+<|Action|>go forward<|END|>
+
+<|Action|>go forward<|END|>
+
+<|Action|>go forward<|END|>
+
+<|Action|>go forward<|END|>
+
+<|Action|>go forward<|END|>
+
+<|Action|>go forward<|END|>
+
+<|Action|>go forward<|END|>
+
+<|Action|>go forward<|END|>
+
+<|Action|>go forward<|END|>
+
+<|Action|>go forward<|END|>
+
+<|Action|>go forward<|END|>
+
+<|Action|>go forward<|END|>
+
+<|Action|>go forward<|END|>
+
+<|Action|>go forward<|END|>
+
+<|Action|>go forward<|END|>
+
+<|Action|>go forward<|END|>
+
+<|Action|>go forward<|END|>
+
+<|Action|>go forward<|END|>
+
+<|Action|>go forward<|END|>
+
+<|Action|>go forward<|END|>
+
+<|Action|>go forward<|END|>
+
+<|Action|>go forward<|END|>
+
+<|Action|>go forward<|END|>
+
+<|Action|>go forward<|END|>
+
+<|Action|>go forward<|END|>
+
+<|Action|>go forward<|END|>
+
+<|Action|>go forward<|END|>
+
+<|Action|>go forward<|END|>
+
+<|Action|>go forward<|END|>
+
+<|Action|>go forward<|END|>
+
+<|Action|>go forward<|END|>
+
+<|Action|>go forward<|END|>
+
+<|Action|>go forward<|END|>
+
+<|Action|>go forward<|END|>
+
+<|Action|>go forward<|END|>
+
+<|Action|>go forward<|END|>
+
+<|Action|>go forward<|END|>
+
+<|Action|>go forward<|END|>
+
+<|Action|>go forward<|END|>
+
+<|Action|>go forward<|END|>
+
+<|Action|>go forward<|END|>
+
+<|Action|>go forward<|END|>
+
+<|Action|>go forward<|END|>
+
+<|Action|>go forward<|END|>
+
+<|Action|>go forward<|END|>
+
+<|Action|>go forward<|END|>
+
+<|Action|>go forward<|END|>
+
+<|Action|>go forward<|END|>
+
+<|Action|>go forward<|END|>
+
+<|Action|>go forward<|END|>
+
+<|Action|>go forward<|END|>
+
+<|Action|>go forward<|END|>
+
+<|Action|>go forward<|END|>
+
+<|Action|>go forward<|END|>
+
+<|Action|>go forward<|END|>
+
+<|Action|>go forward<|END|>
+
+<|Action|>go forward<|END|>
+
+<|Action|>go forward<|END|>
+
+<|Action|>go forward<|END|>
+
+<|Action|>go forward<|END|>
+
+<|Action|>go forward<|END|>
+
+<|Action|>go forward<|END|>
+
+<|Action|>go forward<|END|>
+
+<|Action|>go forward<|END|>
+
+<|Action|>go forward<|END|>
+
+<|Action|>go forward<|END|>
+
+<|Action|>go forward<|END|>
+
+<|Action|>go forward<|END|>
+
+<|Action|>go forward<|END|>
+
+<|Action|>go forward<|END|>
+
+<|Action|>go forward<|END|>
+
+<|Action|>go forward<|END|>
+
+<|Action|>go forward<|END|>
+
+<|Action|>go forward<|END|>
+
+<|Action|>go forward<|END|>
+
+<|Action|>go forward<|END|>
+
+<|Action|>go forward<|END|>
+
+<|Action|>go forward<|END|>
+
+<|Action|>go forward<|END|>
+
+<|Action|>go forward<|END|>
+
+<|Action|>go forward<|END|>
+
+<|Action|>go forward<|END|>
+
+<|Action|>go forward<|END|>
+
+<|Action|>go forward<|END|>
+
+<|Action|>go forward<|END|>
+
+<|Action|>go forward<|END|>
+
+<|Action|>go forward<|END|>
+
+<|Action|>go forward<|END|>
+
+<|Action|>go forward<|END|>
+
+<|Action|>go forward<|END|>
+
+<|Action|>go forward<|END|>
+
+<|Action|>go forward<|END|>
+
+<|Action|>go forward<|END|>
+
+<|Action|>go forward<|END|>
+
+<|Action|>go forward<|END|>
+
+<|Action|>go forward<|END|>
+
+<|Action|>go forward<|END|>
+
+<|Action|>go forward<|END|>
+
+<|Action|>go forward<|END|>
+
+<|Action|>go forward<|END|>
+
+<|Action|>go forward<|END|>
+
+<|Action|>go forward<|END|>
+
+<|Action|>go forward<|END|>
+
+<|Action|>go forward<|END|>
+
+<|Action|>go forward<|END|>
+
+<|Action|>go forward<|END|>
+
+<|Action|>go forward<|END|>
+
+<|Action|>go forward<|END|>
+
+<|Action|>go forward<|END|>
+
+<|Action|>go forward<|END|>
+
+<|Action|>go forward<|END|>
+
+<|Action|>go forward<|END|>
+
+<|Action|>go forward<|END|>
+
+<|Action|>go forward<|END|>
+
+<|Action|>go forward<|END|>
+
+<|Action|>go forward<|END|>
+
+<|Action|>go forward<|END|>
+
+<|Action|>go forward<|END|>
+
+<|Action|>go forward<|END|>
+
+<|Action|>go forward<|END|>
+
+<|Action|>go forward<|END|>
+
+<|Action|>go forward<|END|>
+
+<|Action|>go forward<|END|>
+
+<|Action|>go forward<|END|>
+
+<|Action|>go forward<|END|>
+
+<|Action|>go forward<|END|>
+
+<|Action|>go forward<|END|>
+
+<|Action|>go forward<|END|>
+
+<|Action|>go forward<|END|>
+
+<|Action|>go forward<|END|>
+
+<|Action|>go forward<|END|>
+
+<|Action|>go forward<|END|>
+
+<|Action|>go forward<|END|>
+
+<|Action|>go forward<|END|>
+
+<|Action|>go forward<|END|>
+
+<|Action|>go forward<|END|>
+
+<|Action|>go forward<|END|>
+
+<|Action|>go forward<|END|>
+
+<|Action|>go forward<|END|>
+
+<|Action|>go forward<|END|>
+
+<|Action|>go forward<|END|>
+
+<|Action|>go forward<|END|>
+
+<|Action|>go forward<|END|>
+
+<|Action|>go forward<|END|>
+
+<|Action|>go forward<|END|>
+
+<|Action|>go forward<|END|>
+
+<|Action|>go forward<|END|>
+
+<|Action|>go forward<|","a wall 2 steps forward
+a wall 1 step right",0,False
+3,toggle,<|ACTION|>toggle<|END|>,"a wall 2 steps forward
+a wall 1 step right",0,False
+4,Failed to obtain a valid action from the reasoning.,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+5,right,<|ACTION|>right<|END|>,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+6,Failed to obtain a valid action from the reasoning.,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+7,Failed to obtain a valid action from the reasoning.,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+8,go forward,<|ACTION|>go forward<|END|>|turn right<|END|>|go forward<|END|>,"a wall 1 step forward
+a wall 1 step right",0,False
+9,go forward,<|ACTION|>go forward<|END|>,"a wall 1 step forward
+a wall 1 step right",0,False
+10,go forward,"<|ACTION|>go forward<|END|>
+|","a wall 1 step forward
+a wall 1 step right",0,False
+11,go forward,<|ACTION|>go forward<|END|>,"a wall 1 step forward
+a wall 1 step right",0,False
+12,go forward,<|ACTION|>go forward<|END|>,"a wall 1 step forward
+a wall 1 step right",0,False
+13,go forward,<|ACTION|>go forward<|END|>,"a wall 1 step forward
+a wall 1 step right",0,False
+14,Failed to obtain a valid action from the reasoning.,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+15,go forward,<|ACTION|>go forward<|END|>,"a wall 1 step forward
+a wall 1 step right",0,False
+16,go forward,<|ACTION|>go forward<|END|>,"a wall 1 step forward
+a wall 1 step right",0,False
+17,go forward,<|ACTION|>go forward<|END|>,"a wall 1 step forward
+a wall 1 step right",0,False
+18,Failed to obtain a valid action from the reasoning.,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+19,go forward,<|ACTION|>go forward<|END|>,"a wall 1 step forward
+a wall 1 step right",0,False
+20,turn left,<|ACTION|>turn left<|END|>,"a wall 6 steps forward
+a wall 1 step right",0,False
+21,Failed to obtain a valid action from the reasoning.,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 5 steps forward
+a wall 1 step right",0,False
+22,go forward,<|ACTION|>go forward<|END|>,"a wall 4 steps forward
+a wall 1 step right",0,False
+23,go forward,<|ACTION|>go forward<|END|>,"a wall 3 steps forward
+a wall 1 step right",0,False
+24,go forward,<|ACTION|>go forward<|END|>,"a wall 2 steps forward
+a wall 1 step right",0,False
+25,go forward,<|ACTION|>go forward<|END|>,"a wall 1 step forward
+a wall 1 step right",0,False
+26,toggle,<|ACTION|>toggle<|END|>,"a wall 1 step forward
+a wall 1 step right",0,False
+27,toggle,<|ACTION|>toggle<|END|>,"a wall 1 step forward
+a wall 1 step right",0,False
+28,Failed to obtain a valid action from the reasoning.,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+29,Failed to obtain a valid action from the reasoning.,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+30,Failed to obtain a valid action from the reasoning.,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+31,toggle,<|ACTION|>toggle<|END|>,"a wall 1 step forward
+a wall 1 step right",0,False
+32,toggle,<|ACTION|>toggle<|END|>,"a wall 1 step forward
+a wall 1 step right",0,False
+33,go forward,<|ACTION|>go forward<|END|>,"a wall 1 step forward
+a wall 1 step right",0,False
+34,turn around,"<|ACTION|>turn around<|END|>
+<|ACTION|>go forward<|END|>
+
+<|ACTION|>turn around<|END|>
+<|ACTION|>go forward<|END|>","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+35,go forward,<|ACTION|>go forward<|END|>,"a wall 1 step forward
+a wall 1 step right",0,False
+36,Failed to obtain a valid action from the reasoning.,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+37,turn around,<|ACTION|>turn around<|END|>,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+38,turn around,<|ACTION|>turn around<|END|>,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+39,go forward,<|ACTION|>go forward<|END|>,"a wall 1 step forward
+a wall 1 step right",0,False
+40,turn around,<|ACTION|>turn around<|END|>,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+41,turn left,<|ACTION|>turn left<|END|>,"a wall 1 step right
+a yellow ball 4 steps forward",0,False
+42,go forward,<|ACTION|>go forward<|END|>,"a wall 1 step right
+a yellow ball 3 steps forward",0,False
+43,Failed to obtain a valid action from the reasoning.,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step right
+a yellow ball 2 steps forward",0,False
+44,go forward,<|ACTION|>go forward<|END|>,"a wall 1 step right
+a yellow ball 1 step forward",0.3671875,True

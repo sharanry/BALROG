@@ -1,0 +1,16 @@
+Step,Action,Reasoning,Observation,Reward,Done
+0,turn right,<|ACTION|>turn right<|END|>,"a wall 4 steps forward
+a wall 2 steps right",0,False
+1,turn left,<|ACTION|>turn left<|END|>,"a wall 3 steps left
+a grey box 4 steps forward",0,False
+2,go forward,<|ACTION|>go forward<|END|>,"a wall 3 steps left
+a grey box 3 steps forward",0,False
+3,Failed to obtain a valid action from the reasoning.,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 3 steps left
+a grey box 2 steps forward",0,False
+4,go forward,<|ACTION|>go forward<|END|>,"a wall 3 steps left
+a grey box 1 step forward",0.9296875,True

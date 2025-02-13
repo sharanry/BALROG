@@ -1,0 +1,4677 @@
+Step,Action,Reasoning,Observation,Reward,Done
+0,Failed to obtain a valid action from the reasoning.,<|Go forward 3 steps|>YOUR_CHOSEN_ACTION<|END|>,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 4 steps forward
+a wall 2 steps right
+a grey ball 1 step right and 2 steps forward",0,False
+1,Failed to obtain a valid action from the reasoning.,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 3 steps forward
+a wall 2 steps right
+a grey ball 1 step right and 1 step forward",0,False
+2,Failed to obtain a valid action from the reasoning.,<|Action|>GO FORWARD<|END|>,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 2 steps forward
+a grey ball 1 step right",0,False
+3,Failed to obtain a valid action from the reasoning.,<|Action|>GO FORWARD<|END|>,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 2 steps right",0,False
+4,Failed to obtain a valid action from the reasoning.,<|Pick up|>PICK UP<|END|>,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 2 steps right",0,False
+5,Failed to obtain a valid action from the reasoning.,<|Action|>go forward<|END|>,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 2 steps right",0,False
+6,Failed to obtain a valid action from the reasoning.,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 2 steps right",0,False
+7,Failed to obtain a valid action from the reasoning.,<|Action|>go around the wall|<|END|>,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 2 steps right",0,False
+8,Failed to obtain a valid action from the reasoning.,<|Action|>TURN LEFT<|END|>,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 2 steps right",0,False
+9,turn right,"<|ACTION|>turn right<|END|>
+
+<|ACTION|>go forward<|END|>
+
+<|ACTION|>toggle<|END|>
+
+<|ACTION|>drop<|END|>
+
+<|ACTION|>pick up<|END|>
+
+<|ACTION|>drop<|END|>
+
+<|ACTION|>toggle<|END|>
+
+<|ACTION|>pick up<|END|>
+
+<|ACTION|>drop<|END|>
+
+<|ACTION|>toggle<|END|>
+
+<|ACTION|>pick up<|END|>
+
+<|ACTION|>drop<|END|>
+
+<|ACTION|>toggle<|END|>
+
+<|ACTION|>pick up<|END|>
+
+<|ACTION|>drop<|END|>
+
+<|ACTION|>toggle<|END|>
+
+<|ACTION|>pick up<|END|>
+
+<|ACTION|>drop<|END|>
+
+<|ACTION|>toggle<|END|>
+
+<|ACTION|>pick up<|END|>
+
+<|ACTION|>drop<|END|>
+
+<|ACTION|>toggle<|END|>
+
+<|ACTION|>pick up<|END|>
+
+<|ACTION|>drop<|END|>
+
+<|ACTION|>toggle<|END|>
+
+<|ACTION|>pick up<|END|>
+
+<|ACTION|>drop<|END|>
+
+<|ACTION|>toggle<|END|>
+
+<|ACTION|>pick up<|END|>
+
+<|ACTION|>drop<|END|>
+
+<|ACTION|>toggle<|END|>
+
+<|ACTION|>pick up<|END|>
+
+<|ACTION|>drop<|END|>
+
+<|ACTION|>toggle<|END|>
+
+<|ACTION|>pick up<|END|>
+
+<|ACTION|>drop<|END|>
+
+<|ACTION|>toggle<|END|>
+
+<|ACTION|>pick up<|END|>
+
+<|ACTION|>drop<|END|>
+
+<|ACTION|>toggle<|END|>
+
+<|ACTION|>pick up<|END|>
+
+<|ACTION|>drop<|END|>
+
+<|ACTION|>toggle<|END|>
+
+<|ACTION|>pick up<|END|>
+
+<|ACTION|>drop<|END|>
+
+<|ACTION|>toggle<|END|>
+
+<|ACTION|>pick up<|END|>
+
+<|ACTION|>drop<|END|>
+
+<|ACTION|>toggle<|END|>
+
+<|ACTION|>pick up<|END|>
+
+<|ACTION|>drop<|END|>
+
+<|ACTION|>toggle<|END|>
+
+<|ACTION|>pick up<|END|>
+
+<|ACTION|>drop<|END|>
+
+<|ACTION|>toggle<|END|>
+
+<|ACTION|>pick up<|END|>
+
+<|ACTION|>drop<|END|>
+
+<|ACTION|>toggle<|END|>
+
+<|ACTION|>pick up<|END|>
+
+<|ACTION|>drop<|END|>
+
+<|ACTION|>toggle<|END|>
+
+<|ACTION|>pick up<|END|>
+
+<|Action|>drop<|END|>
+
+<|Action|>toggle<|END|>
+
+<|Action|>pick up<|END|>
+
+<|Action|>drop<|END|>
+
+<|Action|>toggle<|END|>
+
+<|Action|>pick up<|END|>
+
+<|Action|>drop<|END|>
+
+<|Action|>toggle<|END|>
+
+<|Action|>pick up<|END|>
+
+<|Action|>drop<|END|>
+
+<|Action|>toggle<|END|>
+
+<|Action|>pick up<|END|>
+
+<|Action|>drop<|END|>
+
+<|Action|>toggle<|END|>
+
+<|Action|>pick up<|END|>
+
+<|Action|>drop<|END|>
+
+<|Action|>toggle<|END|>
+
+<|Action|>pick up<|END|>
+
+<|Action|>drop<|END|>
+
+<|Action|>toggle<|END|>
+
+<|Action|>pick up<|END|>
+
+<|Action|>drop<|END|>
+
+<|Action|>toggle<|END|>
+
+<|Action|>pick up<|END|>
+
+<|Action|>drop<|END|>
+
+<|Action|>toggle<|END|>
+
+<|Action|>pick up<|END|>
+
+<|Action|>drop<|END|>
+
+<|Action|>toggle<|END|>
+
+<|Action|>pick up<|END|>
+
+<|Action|>drop<|END|>
+
+<|Action|>toggle<|END|>
+
+<|Action|>pick up<|END|>
+
+<|Action|>drop<|END|>
+
+<|Action|>toggle<|END|>
+
+<|Action|>pick up<|END|>
+
+<|Action|>drop<|END|>
+
+<|Action|>toggle<|END|>
+
+<|Action|>pick up<|END|>
+
+<|Action|>drop<|END|>
+
+<|Action|>toggle<|END|>
+
+<|Action|>pick up<|END|>
+
+<|Action|>drop<|END|>
+
+<|Action|>toggle<|END|>
+
+<|Action|>pick up<|END|>
+
+<|Action|>drop<|END|>
+
+<|Action|>toggle<|END|>
+
+<|Action|>pick up<|END|>
+
+<|Action|>drop<|END|>
+
+<|Action|>toggle<|END|>
+
+<|Action|>pick up<|END|>
+
+<|Action|>drop<|END|>
+
+<|Action|>toggle<|END|>
+
+<|Action|>pick up<|END|>
+
+<|Action|>drop<|END|>
+
+<|Action|>toggle<|END|>
+
+<|Action|>pick up<|END|>
+
+<|Action|>drop<|END|>
+
+<|Action|>toggle<|END|>
+
+<|Action|>pick up<|END|>
+
+<|Action|>drop<|END|>
+
+<|Action|>toggle<|END|>
+
+<|Action|>pick up<|END|>
+
+<|Action|>drop<|END|>
+
+<|Action|>toggle<|END|>
+
+<|Action|>pick up<|END|>
+
+<|Action|>drop<|END|>
+
+<|Action|>toggle<|END|>
+
+<|Action|>pick up<|END|>
+
+<|Action|>drop<|END|>
+
+<|Action|>toggle<|END|>
+
+<|Action|>pick up<|END|>
+
+<|Action|>drop<|END|>
+
+<|Action|>toggle<|END|>
+
+<|Action|>pick up<|END|>
+
+<|Action|>drop<|END|>
+
+<|Action|>toggle<|END|>
+
+<|Action|>pick up<|END|>
+
+<|Action|>drop<|END|>
+
+<|Action|>toggle<|END|>
+
+<|Action|>pick up<|END|>
+
+<|Action|>drop<|END|>
+
+<|Action|>toggle<|END|>
+
+<|Action|>pick up<|END|>
+
+<|Action|>drop<|END|>
+
+<|Action|>toggle<|END|>
+
+<|Action|>pick up<|END|>
+
+<|Action|>drop<|END|>
+
+<|Action|>toggle<|END|>
+
+<|Action|>pick up<|END|>
+
+<|Action|>drop<|END|>
+
+<|Action|>toggle<|END|>
+
+<|Action|>pick up<|END|>
+
+<|Action|>drop<|END|>
+
+<|Action|>toggle<|END|>
+
+<|Action|>pick up<|END|>
+
+<|Action|>drop<|END|>
+
+<|Action|>toggle<|END|>
+
+<|Action|>pick up<|END|>
+
+<|Action|>drop<|END|>
+
+<|Action|>toggle<|END|>
+
+<|Action|>pick up<|END|>
+
+<|Action|>drop<|END|>
+
+<|Action|>toggle<|END|>
+
+<|Action|>pick up<|END|>
+
+<|Action|>drop<|END|>
+
+<|Action|>toggle<|END|>
+
+<|Action|>pick up<|END|>
+
+<|Action|>drop<|END|>
+
+<|Action|>toggle<|END|>
+
+<|Action|>pick up<|END|>
+
+<|Action|>drop<|END|>
+
+<|Action|>toggle<|END|>
+
+<|Action|>pick up<|END|>
+
+<|Action|>drop<|END|>
+
+<|Action|>toggle<|END|>
+
+<|Action|>pick up<|END|>
+
+<|Action|>drop<|END|>
+
+<|Action|>toggle<|END|>
+
+<|Action|>pick up<|END|>
+
+<|Action|>drop<|END|>
+
+<|Action|>toggle<|END|>
+
+<|Action|>pick up<|END|>
+
+<|Action|>drop<|END|>
+
+<|Action|>toggle<|END|>
+
+<|Action|>pick up<|END|>
+
+<|Action|>drop<|END|>
+
+<|Action|>toggle<|END|>
+
+<|Action|>pick up<|END|>
+
+<|Action|>drop<|END|>
+
+<|Action|>toggle<|END|>
+
+<|Action|>pick up<|END|>
+
+<|Action|>drop<|END|>
+
+<|Action|>toggle<|END|>
+
+<|Action|>pick up<|END|>
+
+<|Action|>drop<|END|>
+
+<|Action|>toggle<|END|>
+
+<|Action|>pick up<|END|>
+
+<|Action|>drop<|END|>
+
+<|Action|>toggle<|END|>
+
+<|Action|>pick up<|END|>
+
+<|Action|>drop<|END|>
+
+<|Action|>toggle<|END|>
+
+<|Action|>pick up<|END|>
+
+<|Action|>drop<|END|>
+
+<|Action|>toggle<|END|>
+
+<|Action|>pick up<|END|>
+
+<|Action|>drop<|END|>
+
+<|Action|>toggle<|END|>
+
+<|Action|>pick up<|END|>
+
+<|Action|>drop<|END|>
+
+<|Action|>toggle<|END|>
+
+<|Action|>pick up<|END|>
+
+<|Action|>drop<|END|>
+
+<|Action|>toggle<|END|>
+
+<|Action|>pick up<|END|>
+
+<|Action|>drop<|END|>
+
+<|Action|>toggle<|END|>
+
+<|Action|>pick up<|END|>
+
+<|Action|>drop<|END|>
+
+<|Action|>toggle<|END|>
+
+<|Action|>pick up<|END|>
+
+<|Action|>drop<|END|>
+
+<|Action|>toggle<|END|>
+
+<|Action|>pick up<|END|>
+
+<|Action|>drop<|END|>
+
+<|Action|>toggle<|END|>
+
+<|Action|>pick up<|END|>
+
+<|Action|>drop<|END|>
+
+<|Action|>toggle<|END|>
+
+<|Action|>pick up<|END|>
+
+<|Action|>drop<|END|>
+
+<|Action|>toggle<|END|>
+
+<|Action|>pick up<|END|>
+
+<|Action|>drop<|END|>
+
+<|Action|>toggle<|END|>
+
+<|Action|>pick up<|END|>
+
+<|Action|>drop<|END|>
+
+<|Action|>toggle<|END|>
+
+<|Action|>pick up<|END|>
+
+<|Action|>drop<|END|>
+
+<|Action|>toggle<|END|>
+
+<|Action|>pick up<|END|>
+
+<|Action|>drop<|END|>
+
+<|Action|>toggle<|END|>
+
+<|Action|>pick up<|END|>
+
+<|Action|>drop<|END|>
+
+<|Action|>toggle<|END|>
+
+<|Action|>pick up<|END|>
+
+<|Action|>drop<|END|>
+
+<|Action|>toggle<|END|>
+
+<|Action|>pick up<|END|>
+
+<|Action|>drop<|END|>
+
+<|Action|>toggle<|END|>
+
+<|Action|>pick up<|END|>
+
+<|Action|>drop<|END|>
+
+<|Action|>toggle<|END|>
+
+<|Action|>pick up<|END|>
+
+<|Action|>drop<|END|>
+
+<|Action|>toggle<|END|>
+
+<|Action|>pick up<|END|>
+
+<|Action|>drop<|END|>
+
+<|Action|>toggle<|END|>
+
+<|Action|>pick up<|END|>
+
+<|Action|>toggle<|END|>
+
+<|Action|>pick up<|END|>
+
+<|Action|>toggle<|END|>
+
+<|Action|>pick up<|END|>
+
+<|Action|>toggle<|END|>
+
+<|Action|>pick up<|END|>
+
+<|Action|>toggle<|END|>
+
+<|Action|>pick up<|END|>
+
+<|Action|>toggle<|END|>
+
+<|Action|>pick up<|END|>
+
+<|Action|>toggle<|END|>
+
+<|Action|>pick up<|END|>
+
+<|Action|>toggle<|END|>
+
+<|Action|>pick up<|END|>
+
+<|Action|>toggle<|END|>
+
+<|Action|>pick up<|END|>
+
+<|Action|>toggle<|END|>
+
+<|Action|>pick up<|END|>
+
+<|Action|>toggle<|END|>
+
+<|Action|>pick up<|END|>
+
+<|Action|>toggle<|END|>
+
+<|Action|>pick up<|END|>
+
+<|Action|>toggle<|END|>
+
+<|Action|>pick up<|END|>
+
+<|Action|>toggle<|END|>
+
+<|Action|>pick up<|END|>
+
+<|Action|>toggle<|END|>
+
+<|Action|>pick up<|END|>
+
+<|Action|>toggle<|END|>
+
+<|Action|>pick up<|END|>
+
+<|Action|>toggle<|END|>
+
+<|Action|>pick up<|END|>
+
+<|Action|>toggle<|END|>
+
+<|Action|>pick up<|END|>
+
+<|Action|>toggle<|END|>
+
+<|Action|>pick up<|END|>
+
+<|Action|>toggle<|END|>
+
+<|Action|>pick up<|END|>
+
+<|Action|>toggle<|END|>
+
+<|Action|>pick up<|END|>
+
+<|Action|>toggle<|END|>
+
+<|Action|>pick up<|END|>
+
+<|Action|>toggle<|END|>
+
+<|Action|>pick up<|END|>
+
+<|Action|>toggle<|END|>
+
+<|Action|>pick up<|END|>
+
+<|Action|>toggle<|END|>
+
+<|Action|>pick up<|END|>
+
+<|Action|>toggle<|END|>
+
+<|Action|>pick up<|END|>
+
+<|Action|>toggle<|END|>
+
+<|Action|>pick up<|END|>
+
+<|Action|>toggle<|END|>
+
+<|Action|>pick up<|END|>
+
+<|Action|>toggle<|END|>
+
+<|Action|>pick up<|END|>
+
+<|Action|>toggle<|END|>
+
+<|Action|>pick up<|END|>
+
+<|Action|>toggle<|END|>
+
+<|Action|>pick up<|END|>
+
+<|Action|>toggle<|END|>
+
+<|Action|>pick up<|END","a wall 2 steps forward
+a wall 1 step left
+a grey ball 1 step right and 1 step forward",0,False
+10,Failed to obtain a valid action from the reasoning.,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step left
+a grey ball 1 step right",0,False
+11,pick up,<|ACTION|>pick up<|END|>,"a wall 1 step forward
+a wall 1 step left
+a grey ball 1 step right",0,False
+12,Failed to obtain a valid action from the reasoning.,<|Action|>GO FORWARD<|END|>,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step left
+a grey ball 1 step right",0,False
+13,Failed to obtain a valid action from the reasoning.,<|Pick up|>PICK UP<|END|>,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step left
+a grey ball 1 step right",0,False
+14,left,"<|ACTION|>left<|END|>
+
+<|ACTION|>forward<|END|>","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step left
+a grey ball 1 step right",0,False
+15,forward,<|ACTION|>forward<|END|>,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step left
+a grey ball 1 step right",0,False
+16,left,"<|ACTION|>left<|END|>
+
+<|ACTION|>forward<|END|>
+
+<|ACTION|>pick up<|END|>
+
+<|ACTION|>drop<|END|>
+
+<|ACTION|>toggle<|END|>
+
+<|ACTION|>backward<|END|>
+
+<|ACTION|>left<|END|>
+
+<|ACTION|>forward<|END|>
+
+<|ACTION|>pick up<|END|>
+
+<|ACTION|>drop<|END|>
+
+<|Action|>toggle<|END|>
+
+<|Action|>backward<|END|>
+
+<|Action|>left<|END|>
+
+<|Action|>forward<|END|>
+
+<|Action|>pick up<|END|>
+
+<|Action|>drop<|END|>
+
+<|Action|>toggle<|END|>
+
+<|Action|>backward<|END|>
+
+<|Action|>left<|END|>
+
+<|Action|>forward<|END|>
+
+<|Action|>pick up<|END|>
+
+<|Action|>drop<|END|>
+
+<|Action|>toggle<|END|>
+
+<|Action|>backward<|END|>
+
+<|Action|>left<|END|>
+
+<|Action|>forward<|END|>
+
+<|Action|>pick up<|END|>
+
+<|Action|>drop<|END|>
+
+<|Action|>toggle<|END|>
+
+<|Action|>backward<|END|>
+
+<|Action|>left<|END|>
+
+<|Action|>forward<|END|>
+
+<|Action|>pick up<|END|>
+
+<|Action|>drop<|END|>
+
+<|Action|>toggle<|END|>
+
+<|Action|>backward<|END|>
+
+<|Action|>left<|END|>
+
+<|Action|>forward<|END|>
+
+<|Action|>pick up<|END|>
+
+<|Action|>drop<|END|>
+
+<|Action|>toggle<|END|>
+
+<|Action|>backward<|END|>
+
+<|Action|>left<|END|>
+
+<|Action|>forward<|END|>
+
+<|Action|>pick up<|END|>
+
+<|Action|>drop<|END|>
+
+<|Action|>toggle<|END|>
+
+<|Action|>backward<|END|>
+
+<|Action|>left<|END|>
+
+<|Action|>forward<|END|>
+
+<|Action|>pick up<|END|>
+
+<|Action|>drop<|END|>
+
+<|Action|>toggle<|END|>
+
+<|Action|>backward<|END|>
+
+<|Action|>left<|END|>
+
+<|Action|>forward<|END|>
+
+<|Action|>pick up<|END|>
+
+<|Action|>drop<|END|>
+
+<|Action|>toggle<|END|>
+
+<|Action|>backward<|END|>
+
+<|Action|>left<|END|>
+
+<|Action|>forward<|END|>
+
+<|Action|>pick up<|END|>
+
+<|Action|>drop<|END|>
+
+<|Action|>toggle<|END|>
+
+<|Action|>backward<|END|>
+
+<|Action|>left<|END|>
+
+<|Action|>forward<|END|>
+
+<|Action|>pick up<|END|>
+
+<|Action|>drop<|END|>
+
+<|Action|>toggle<|END|>
+
+<|Action|>backward<|END|>
+
+<|Action|>left<|END|>
+
+<|Action|>forward<|END|>
+
+<|Action|>pick up<|END|>
+
+<|Action|>drop<|END|>
+
+<|Action|>toggle<|END|>
+
+<|Action|>backward<|END|>
+
+<|Action|>left<|END|>
+
+<|Action|>forward<|END|>
+
+<|Action|>pick up<|END|>
+
+<|Action|>drop<|END|>
+
+<|Action|>toggle<|END|>
+
+<|Action|>backward<|END|>
+
+<|Action|>left<|END|>
+
+<|Action|>forward<|END|>
+
+<|Action|>pick up<|END|>
+
+<|Action|>drop<|END|>
+
+<|Action|>toggle<|END|>
+
+<|Action|>backward<|END|>
+
+<|Action|>left<|END|>
+
+<|Action|>forward<|END|>
+
+<|Action|>pick up<|END|>
+
+<|Action|>drop<|END|>
+
+<|Action|>toggle<|END|>
+
+<|Action|>backward<|END|>
+
+<|Action|>left<|END|>
+
+<|Action|>forward<|END|>
+
+<|Action|>pick up<|END|>
+
+<|Action|>drop<|END|>
+
+<|Action|>toggle<|END|>
+
+<|Action|>backward<|END|>
+
+<|Action|>left<|END|>
+
+<|Action|>forward<|END|>
+
+<|Action|>pick up<|END|>
+
+<|Action|>drop<|END|>
+
+<|Action|>toggle<|END|>
+
+<|Action|>backward<|END|>
+
+<|Action|>left<|END|>
+
+<|Action|>forward<|END|>
+
+<|Action|>pick up<|END|>
+
+<|Action|>drop<|END|>
+
+<|Action|>toggle<|END|>
+
+<|Action|>backward<|END|>
+
+<|Action|>left<|END|>
+
+<|Action|>forward<|END|>
+
+<|Action|>pick up<|END|>
+
+<|Action|>drop<|END|>
+
+<|Action|>toggle<|END|>
+
+<|Action|>backward<|END|>
+
+<|Action|>left<|END|>
+
+<|Action|>forward<|END|>
+
+<|Action|>pick up<|END|>
+
+<|Action|>drop<|END|>
+
+<|Action|>toggle<|END|>
+
+<|Action|>backward<|END|>
+
+<|Action|>left<|END|>
+
+<|Action|>forward<|END|>
+
+<|Action|>pick up<|END|>
+
+<|Action|>drop<|END|>
+
+<|Action|>toggle<|END|>
+
+<|Action|>backward<|END|>
+
+<|Action|>left<|END|>
+
+<|Action|>forward<|END|>
+
+<|Action|>pick up<|END|>
+
+<|Action|>drop<|END|>
+
+<|Action|>toggle<|END|>
+
+<|Action|>backward<|END|>
+
+<|Action|>left<|END|>
+
+<|Action|>forward<|END|>
+
+<|Action|>pick up<|END|>
+
+<|Action|>drop<|END|>
+
+<|Action|>toggle<|END|>
+
+<|Action|>backward<|END|>
+
+<|Action|>left<|END|>
+
+<|Action|>forward<|END|>
+
+<|Action|>pick up<|END|>
+
+<|Action|>drop<|END|>
+
+<|Action|>toggle<|END|>
+
+<|Action|>backward<|END|>
+
+<|Action|>left<|END|>
+
+<|Action|>forward<|END|>
+
+<|Action|>pick up<|END|>
+
+<|Action|>drop<|END|>
+
+<|Action|>toggle<|END|>
+
+<|Action|>backward<|END|>
+
+<|Action|>left<|END|>
+
+<|Action|>forward<|END|>
+
+<|Action|>pick up<|END|>
+
+<|Action|>drop<|END|>
+
+<|Action|>toggle<|END|>
+
+<|Action|>backward<|END|>
+
+<|Action|>left<|END|>
+
+<|Action|>forward<|END|>
+
+<|Action|>pick up<|END|>
+
+<|Action|>drop<|END|>
+
+<|Action|>toggle<|END|>
+
+<|Action|>backward<|END|>
+
+<|Action|>left<|END|>
+
+<|Action|>forward<|END|>
+
+<|Action|>pick up<|END|>
+
+<|Action|>drop<|END|>
+
+<|Action|>toggle<|END|>
+
+<|Action|>backward<|END|>
+
+<|Action|>left<|END|>
+
+<|Action|>forward<|END|>
+
+<|Action|>pick up<|END|>
+
+<|Action|>drop<|END|>
+
+<|Action|>toggle<|END|>
+
+<|Action|>backward<|END|>
+
+<|Action|>left<|END|>
+
+<|Action|>forward<|END|>
+
+<|Action|>pick up<|END|>
+
+<|Action|>drop<|END|>
+
+<|Action|>toggle<|END|>
+
+<|Action|>backward<|END|>
+
+<|Action|>left<|END|>
+
+<|Action|>forward<|END|>
+
+<|Action|>pick up<|END|>
+
+<|Action|>drop<|END|>
+
+<|Action|>toggle<|END|>
+
+<|Action|>backward<|END|>
+
+<|Action|>left<|END|>
+
+<|Action|>forward<|END|>
+
+<|Action|>pick up<|END|>
+
+<|Action|>drop<|END|>
+
+<|Action|>toggle<|END|>
+
+<|Action|>backward<|END|>
+
+<|Action|>left<|END|>
+
+<|Action|>forward<|END|>
+
+<|Action|>pick up<|END|>
+
+<|Action|>drop<|END|>
+
+<|Action|>toggle<|END|>
+
+<|Action|>backward<|END|>
+
+<|Action|>left<|END|>
+
+<|Action|>forward<|END|>
+
+<|Action|>pick up<|END|>
+
+<|Action|>drop<|END|>
+
+<|Action|>toggle<|END|>
+
+<|Action|>backward<|END|>
+
+<|Action|>left<|END|>
+
+<|Action|>forward<|END|>
+
+<|Action|>pick up<|END|>
+
+<|Action|>drop<|END|>
+
+<|Action|>toggle<|END|>
+
+<|Action|>backward<|END|>
+
+<|Action|>left<|END|>
+
+<|Action|>forward<|END|>
+
+<|Action|>pick up<|END|>
+
+<|Action|>drop<|END|>
+
+<|Action|>toggle<|END|>
+
+<|Action|>backward<|END|>
+
+<|Action|>left<|END|>
+
+<|Action|>forward<|END|>
+
+<|Action|>pick up<|END|>
+
+<|Action|>drop<|END|>
+
+<|Action|>toggle<|END|>
+
+<|Action|>backward<|END|>
+
+<|Action|>left<|END|>
+
+<|Action|>forward<|END|>
+
+<|Action|>pick up<|END|>
+
+<|Action|>drop<|END|>
+
+<|Action|>toggle<|END|>
+
+<|Action|>backward<|END|>
+
+<|Action|>left<|END|>
+
+<|Action|>forward<|END|>
+
+<|Action|>pick up<|END|>
+
+<|Action|>drop<|END|>
+
+<|Action|>toggle<|END|>
+
+<|Action|>backward<|END|>
+
+<|Action|>left<|END|>
+
+<|Action|>forward<|END|>
+
+<|Action|>pick up<|END|>
+
+<|Action|>drop<|END|>
+
+<|Action|>toggle<|END|>
+
+<|Action|>backward<|END|>
+
+<|Action|>left<|END|>
+
+<|Action|>forward<|END|>
+
+<|Action|>pick up<|END|>
+
+<|Action|>drop<|END|>
+
+<|Action|>toggle<|END|>
+
+<|Action|>backward<|END|>
+
+<|Action|>left<|END|>
+
+<|Action|>forward<|END|>
+
+<|Action|>pick up<|END|>
+
+<|Action|>drop<|END|>
+
+<|Action|>toggle<|END|>
+
+<|Action|>backward<|END|>
+
+<|Action|>left<|END|>
+
+<|Action|>forward<|END|>
+
+<|Action|>pick up<|END|>
+
+<|Action|>drop<|END|>
+
+<|Action|>toggle<|END|>
+
+<|Action|>backward<|END|>
+
+<|Action|>left<|END|>
+
+<|Action|>forward<|END|>
+
+<|Action|>pick up<|END|>
+
+<|Action|>drop<|END|>
+
+<|Action|>toggle<|END|>
+
+<|Action|>backward<|END|>
+
+<|Action|>left<|END|>
+
+<|Action|>forward<|END|>
+
+<|Action|>pick up<|END|>
+
+<|Action|>drop<|END|>
+
+<|Action|>toggle<|END|>
+
+<|Action|>backward<|END|>
+
+<|Action|>left<|END|>
+
+<|Action|>forward<|END|>
+
+<|Action|>pick up<|END|>
+
+<|Action|>drop<|END|>
+
+<|Action|>toggle<|END|>
+
+<|Action|>backward<|END|>
+
+<|Action|>left<|END|>
+
+<|Action|>forward<|END|>
+
+<|Action|>pick up<|END|>
+
+<|Action|>drop<|END|>
+
+<|Action|>toggle<|END|>
+
+<|Action|>backward<|END|>
+
+<|Action|>left<|END|>
+
+<|Action|>forward<|END|>
+
+<|Action|>pick up<|END|>
+
+<|Action|>drop<|END|>
+
+<|Action|>toggle<|END|>
+
+<|Action|>backward<|END|>
+
+<|Action|>left<|END|>
+
+<|Action|>forward<|END|>
+
+<|Action|>pick up<|END|>
+
+<|Action|>drop<|END|>
+
+<|Action|>toggle<|END|>
+
+<|Action|>backward<|END|>
+
+<|Action|>left<|END|>
+
+<|Action|>forward<|END|>
+
+<|Action|>pick","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step left
+a grey ball 1 step right",0,False
+17,right,<|ACTION|>right<|END|>,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step left
+a grey ball 1 step right",0,False
+18,Failed to obtain a valid action from the reasoning.,"|ACTION|RIGHT|
+|---|---|
+| | <|ACTION|RIGHT|<|END|>","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step left
+a grey ball 1 step right",0,False
+19,Failed to obtain a valid action from the reasoning.,<|Action|>left<|END|>|forward<|END|>,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step left
+a grey ball 1 step right",0,False
+20,right,"<|ACTION|>right<|END|>
+
+<|ACTION|>forward<|END|>
+
+<|ACTION|>left<|END|>
+
+<|ACTION|>right<|END|>
+
+<|ACTION|>forward<|END|>
+
+<|ACTION|>right<|END|>
+
+<|ACTION|>forward<|END|>
+
+<|ACTION|>right<|END|>
+
+<|ACTION|>forward<|END|>
+
+<|ACTION|>right<|END|>
+
+<|ACTION|>forward<|END|>
+
+<|ACTION|>right<|END|>
+
+<|ACTION|>forward<|END|>
+
+<|ACTION|>right<|END|>
+
+<|ACTION|>forward<|END|>
+
+<|ACTION|>right<|END|>
+
+<|ACTION|>forward<|END|>
+
+<|ACTION|>right<|END|>
+
+<|ACTION|>forward<|END|>
+
+<|ACTION|>right<|END|>
+
+<|ACTION|>forward<|END|>
+
+<|ACTION|>right<|END|>
+
+<|ACTION|>forward<|END|>
+
+<|ACTION|>right<|END|>
+
+<|ACTION|>forward<|END|>
+
+<|ACTION|>right<|END|>
+
+<|ACTION|>forward<|END|>
+
+<|ACTION|>right<|END|>
+
+<|ACTION|>forward<|END|>
+
+<|ACTION|>right<|END|>
+
+<|ACTION|>forward<|END|>
+
+<|ACTION|>right<|END|>
+
+<|ACTION|>forward<|END|>
+
+<|ACTION|>right<|END|>
+
+<|ACTION|>forward<|END|>
+
+<|ACTION|>right<|END|>
+
+<|Action|>forward<|END|>
+
+<|Action|>right<|END|>
+
+<|Action|>forward<|END|>
+
+<|Action|>right<|END|>
+
+<|Action|>forward<|END|>
+
+<|Action|>right<|END|>
+
+<|Action|>forward<|END|>
+
+<|Action|>right<|END|>
+
+<|Action|>forward<|END|>
+
+<|Action|>right<|END|>
+
+<|Action|>forward<|END|>
+
+<|Action|>right<|END|>
+
+<|Action|>forward<|END|>
+
+<|Action|>right<|END|>
+
+<|Action|>forward<|END|>
+
+<|Action|>right<|END|>
+
+<|Action|>forward<|END|>
+
+<|Action|>right<|END|>
+
+<|Action|>forward<|END|>
+
+<|Action|>right<|END|>
+
+<|Action|>forward<|END|>
+
+<|Action|>right<|END|>
+
+<|Action|>forward<|END|>
+
+<|Action|>right<|END|>
+
+<|Action|>forward<|END|>
+
+<|Action|>right<|END|>
+
+<|Action|>forward<|END|>
+
+<|Action|>right<|END|>
+
+<|Action|>forward<|END|>
+
+<|Action|>right<|END|>
+
+<|Action|>forward<|END|>
+
+<|Action|>right<|END|>
+
+<|Action|>forward<|END|>
+
+<|Action|>right<|END|>
+
+<|Action|>forward<|END|>
+
+<|Action|>right<|END|>
+
+<|Action|>forward<|END|>
+
+<|Action|>right<|END|>
+
+<|Action|>forward<|END|>
+
+<|Action|>right<|END|>
+
+<|Action|>forward<|END|>
+
+<|Action|>right<|END|>
+
+<|Action|>forward<|END|>
+
+<|Action|>right<|END|>
+
+<|Action|>forward<|END|>
+
+<|Action|>right<|END|>
+
+<|Action|>forward<|END|>
+
+<|Action|>right<|END|>
+
+<|Action|>forward<|END|>
+
+<|Action|>right<|END|>
+
+<|Action|>forward<|END|>
+
+<|Action|>right<|END|>
+
+<|Action|>forward<|END|>
+
+<|Action|>right<|END|>
+
+<|Action|>forward<|END|>
+
+<|Action|>right<|END|>
+
+<|Action|>forward<|END|>
+
+<|Action|>right<|END|>
+
+<|Action|>forward<|END|>
+
+<|Action|>right<|END|>
+
+<|Action|>forward<|END|>
+
+<|Action|>right<|END|>
+
+<|Action|>forward<|END|>
+
+<|Action|>right<|END|>
+
+<|Action|>forward<|END|>
+
+<|Action|>right<|END|>
+
+<|Action|>forward<|END|>
+
+<|Action|>right<|END|>
+
+<|Action|>forward<|END|>
+
+<|Action|>right<|END|>
+
+<|Action|>forward<|END|>
+
+<|Action|>right<|END|>
+
+<|Action|>forward<|END|>
+
+<|Action|>right<|END|>
+
+<|Action|>forward<|END|>
+
+<|Action|>right<|END|>
+
+<|Action|>forward<|END|>
+
+<|Action|>right<|END|>
+
+<|Action|>forward<|END|>
+
+<|Action|>right<|END|>
+
+<|Action|>forward<|END|>
+
+<|Action|>right<|END|>
+
+<|Action|>forward<|END|>
+
+<|Action|>right<|END|>
+
+<|Action|>forward<|END|>
+
+<|Action|>right<|END|>
+
+<|Action|>forward<|END|>
+
+<|Action|>right<|END|>
+
+<|Action|>forward<|END|>
+
+<|Action|>right<|END|>
+
+<|Action|>forward<|END|>
+
+<|Action|>right<|END|>
+
+<|Action|>forward<|END|>
+
+<|Action|>right<|END|>
+
+<|Action|>forward<|END|>
+
+<|Action|>right<|END|>
+
+<|Action|>forward<|END|>
+
+<|Action|>right<|END|>
+
+<|Action|>forward<|END|>
+
+<|Action|>right<|END|>
+
+<|Action|>forward<|END|>
+
+<|Action|>right<|END|>
+
+<|Action|>forward<|END|>
+
+<|Action|>right<|END|>
+
+<|Action|>forward<|END|>
+
+<|Action|>right<|END|>
+
+<|Action|>forward<|END|>
+
+<|Action|>right<|END|>
+
+<|Action|>forward<|END|>
+
+<|Action|>right<|END|>
+
+<|Action|>forward<|END|>
+
+<|Action|>right<|END|>
+
+<|Action|>forward<|END|>
+
+<|Action|>right<|END|>
+
+<|Action|>forward<|END|>
+
+<|Action|>right<|END|>
+
+<|Action|>forward<|END|>
+
+<|Action|>right<|END|>
+
+<|Action|>forward<|END|>
+
+<|Action|>right<|END|>
+
+<|Action|>forward<|END|>
+
+<|Action|>right<|END|>
+
+<|Action|>forward<|END|>
+
+<|Action|>right<|END|>
+
+<|Action|>forward<|END|>
+
+<|Action|>right<|END|>
+
+<|Action|>forward<|END|>
+
+<|Action|>right<|END|>
+
+<|Action|>forward<|END|>
+
+<|Action|>right<|END|>
+
+<|Action|>forward<|END|>
+
+<|Action|>right<|END|>
+
+<|Action|>forward<|END|>
+
+<|Action|>right<|END|>
+
+<|Action|>forward<|END|>
+
+<|Action|>right<|END|>
+
+<|Action|>forward<|END|>
+
+<|Action|>right<|END|>
+
+<|Action|>forward<|END|>
+
+<|Action|>right<|END|>
+
+<|Action|>forward<|END|>
+
+<|Action|>right<|END|>
+
+<|Action|>forward<|END|>
+
+<|Action|>right<|END|>
+
+<|Action|>forward<|END|>
+
+<|Action|>right<|END|>
+
+<|Action|>forward<|END|>
+
+<|Action|>right<|END|>
+
+<|Action|>forward<|END|>
+
+<|Action|>right<|END|>
+
+<|Action|>forward<|END|>
+
+<|Action|>right<|END|>
+
+<|Action|>forward<|END|>
+
+<|Action|>right<|END|>
+
+<|Action|>forward<|END|>
+
+<|Action|>right<|END|>
+
+<|Action|>forward<|END|>
+
+<|Action|>right<|END|>
+
+<|Action|>forward<|END|>
+
+<|Action|>right<|END|>
+
+<|Action|>forward<|END|>
+
+<|Action|>right<|END|>
+
+<|Action|>forward<|END|>
+
+<|Action|>right<|END|>
+
+<|Action|>forward<|END|>
+
+<|Action|>right<|END|>
+
+<|Action|>forward<|END|>
+
+<|Action|>right<|END|>
+
+<|Action|>forward<|END|>
+
+<|Action|>right<|END|>
+
+<|Action|>forward<|END|>
+
+<|Action|>right<|END|>
+
+<|Action|>forward<|END|>
+
+<|Action|>right<|END|>
+
+<|Action|>forward<|END|>
+
+<|Action|>right<|END|>
+
+<|Action|>forward<|END|>
+
+<|Action|>right<|END|>
+
+<|Action|>forward<|END|>
+
+<|Action|>right<|END|>
+
+<|Action|>forward<|END|>
+
+<|Action|>right<|END|>
+
+<|Action|>forward<|END|>
+
+<|Action|>right<|END|>
+
+<|Action|>forward<|END|>
+
+<|Action|>right<|END|>
+
+<|Action|>forward<|END|>
+
+<|Action|>right<|END|>
+
+<|Action|>forward<|END|>
+
+<|Action|>right<|END|>
+
+<|Action|>forward<|END|>
+
+<|Action|>right<|END|>
+
+<|Action|>forward<|END|>
+
+<|Action|>right<|END|>
+
+<|Action|>forward<|END|>
+
+<|Action|>right<|END|>
+
+<|Action|>forward<|END|>
+
+<|Action|>right<|END|>
+
+<|Action|>right<|END|>
+
+<|Action|>right<|END|>
+
+<|Action|>right<|END|>
+
+<|Action|>right<|END|>
+
+<|Action|>right<|END|>
+
+<|Action|>right<|END|>
+
+<|Action|>right<|END|>
+
+<|Action|>right<|END|>
+
+<|Action|>right<|END|>
+
+<|Action|>right<|END|>
+
+<|Action|>right<|END|>
+
+<|Action|>right<|END|>
+
+<|Action|>right<|END|>
+
+<|Action|>right<|END|>
+
+<|Action|>right<|END|>
+
+<|Action|>right<|END|>
+
+<|Action|>right<|END|>
+
+<|Action|>right<|END|>
+
+<|Action|>right<|END|>
+
+<|Action|>right<|END|>
+
+<|Action|>right<|END|>
+
+<|Action|>right<|END|>
+
+<|Action|>right<|END|>
+
+<|Action|>right<|END|>
+
+<|Action|>right<|END|>
+
+<|Action|>right<|END|>
+
+<|Action|>right<|END|>
+
+<|Action|>right<|END|>
+
+<|Action|>right<|END|>
+
+<|Action|>right<|END|>
+
+<|Action|>right<|END|>
+
+<|Action|>right<|END|>
+
+<|Action|>right<|END|>
+
+<|Action|>right<|END|>
+
+<|Action|>right<|END|>
+
+<|Action|>right<|END|>
+
+<|Action|>right<|END|>
+
+<|Action|>right<|END|>
+
+<|Action|>right<|END|>
+
+<|Action|>right<|END|>
+
+<|Action|>right<|END|>
+
+<|Action|>right<|END|>
+
+<|Action|>right<|END|>
+
+<|Action|>right<|END|>
+
+<|Action|>right<|END|>
+
+<|Action|>right<|END|>
+
+<|Action|>right<|END|>
+
+<|Action|>right<|END|>
+
+<|Action|>right<|END|>
+
+<|Action|>right<|END|>
+
+<|Action|>right<|END|>
+
+<|Action|>right<|END|>
+
+<|Action|>right<|END|>
+
+<|Action|>right<|END|>
+
+<|Action|>right<|END|>
+
+<|Action|>right<|END|>
+
+<|Action|>right<|END|>
+
+<|Action|>right<|END|>
+
+<|Action|>right<|END|>
+
+<|Action|>right<|END|>
+
+<|Action|>right<|END|>
+
+<|Action|>right<|END|>
+
+<|Action|>right<|END|>
+
+<|Action|>right<|END|>
+
+<|Action|>right<|END|>
+
+<|Action|>right<|END|>
+
+<|Action|>right<|END|>
+
+<|Action|>right<|END|>
+
+<|Action|>right<|END|>
+
+<|Action|>right<|END|>
+
+<|Action|>right<|END|>
+
+<|Action|>right<|END|>
+
+<|Action|>right<|END|>
+
+<|Action|>right<|END|>
+
+<|Action|>right<|END|>
+
+<|Action|>right<|END|>
+
+<|Action|>right<|END|>
+
+<|Action|>right<|END|>
+
+<|Action|>right<|END|>
+
+<|Action|>right<|END|>
+
+<|Action|>right<|END|>
+
+<|Action|>right<|END|>
+
+<|Action|>right<|END|>
+
+<|Action|>right<|END|>
+
+<|Action|>right<|END|>
+
+<|Action|>right<|END|>
+
+<|Action|>right<|END|>
+
+<|Action|>right<|END|>
+
+<|Action|>right<|END|>
+
+<|Action|>right<|END|>
+
+<|Action|>right<|END|>","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step left
+a grey ball 1 step right",0,False
+21,Failed to obtain a valid action from the reasoning.,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step left
+a grey ball 1 step right",0,False
+22,Failed to obtain a valid action from the reasoning.,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step left
+a grey ball 1 step right",0,False
+23,Failed to obtain a valid action from the reasoning.,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step left
+a grey ball 1 step right",0,False
+24,Failed to obtain a valid action from the reasoning.,<|Action|>right<|END|>,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step left
+a grey ball 1 step right",0,False
+25,Failed to obtain a valid action from the reasoning.,<|Action|>forward<|END|>,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step left
+a grey ball 1 step right",0,False
+26,Failed to obtain a valid action from the reasoning.,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step left
+a grey ball 1 step right",0,False
+27,Failed to obtain a valid action from the reasoning.,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step left
+a grey ball 1 step right",0,False
+28,Failed to obtain a valid action from the reasoning.,<|Go forward|>GO_forward<|END|>,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step left
+a grey ball 1 step right",0,False
+29,Failed to obtain a valid action from the reasoning.,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step left
+a grey ball 1 step right",0,False
+30,Failed to obtain a valid action from the reasoning.,|ACTION| turn right<|END|>,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step left
+a grey ball 1 step right",0,False
+31,forward,"<|ACTION|>forward<|END|>|toggle<|END|>
+
+<|ACTION|>left<|END|>|toggle<|END|>
+
+<|ACTION|>right<|END|>|toggle<|END|>
+
+<|ACTION|>up<|END|>
+
+<|ACTION|>down<|END|>
+
+<|ACTION|>left<|END|>|toggle<|END|>
+
+<|ACTION|>right<|END|>|toggle<|END|>
+
+<|ACTION|>up<|END|>|toggle<|END|>
+
+<|ACTION|>down<|END|>|toggle<|END|>
+
+<|ACTION|>left<|END|>|toggle<|END|>
+
+<|ACTION|>right<|END|>|toggle<|END|>
+
+<|ACTION|>up<|END|>|toggle<|END|>
+
+<|ACTION|>down<|END|>|toggle<|END|>
+
+<|ACTION|>left<|END|>|toggle<|END|>
+
+<|ACTION|>right<|END|>|toggle<|END|>
+
+<|ACTION|>up<|END|>|toggle<|END|>
+
+<|ACTION|>down<|END|>|toggle<|END|>
+
+<|ACTION|>left<|END|>|toggle<|END|>
+
+<|ACTION|>right<|END|>|toggle<|END|>
+
+<|ACTION|>up<|END|>|toggle<|END|>
+
+<|ACTION|>down<|END|>|toggle<|END|>
+
+<|ACTION|>left<|END|>|toggle<|END|>
+
+<|ACTION|>right<|END|>|toggle<|END|>
+
+<|ACTION|>up<|END|>|toggle<|END|>
+
+<|ACTION|>down<|END|>|toggle<|END|>
+
+<|ACTION|>left<|END|>|toggle<|END|>
+
+<|ACTION|>right<|END|>|toggle<|END|>
+
+<|ACTION|>up<|END|>|toggle<|END|>
+
+<|ACTION|>down<|END|>|toggle<|END|>
+
+<|ACTION|>left<|END|>|toggle<|END|>
+
+<|ACTION|>right<|END|>|toggle<|END|>
+
+<|ACTION|>up<|END|>|toggle<|END|>
+
+<|ACTION|>down<|END|>|toggle<|END|>
+
+<|ACTION|>left<|END|>|toggle<|END|>
+
+<|ACTION|>right<|END|>|toggle<|END|>
+
+<|ACTION|>up<|END|>|toggle<|END|>
+
+<|ACTION|>down<|END|>|toggle<|END|>
+
+<|ACTION|>left<|END|>|toggle<|END|>
+
+<|ACTION|>right<|END|>|toggle<|END|>
+
+<|ACTION|>up<|END|>|toggle<|END|>
+
+<|ACTION|>down<|END|>|toggle<|END|>
+
+<|ACTION|>left<|END|>|toggle<|END|>
+
+<|ACTION|>right<|END|>|toggle<|END|>
+
+<|ACTION|>up<|END|>|toggle<|END|>
+
+<|ACTION|>down<|END|>|toggle<|END|>
+
+<|ACTION|>left<|END|>|toggle<|END|>
+
+<|ACTION|>right<|END|>|toggle<|END|>
+
+<|ACTION|>up<|END|>|toggle<|END|>
+
+<|ACTION|>down<|END|>|toggle<|END|>
+
+<|ACTION|>left<|END|>|toggle<|END|>
+
+<|ACTION|>right<|END|>|toggle<|END|>
+
+<|ACTION|>up<|END|>|toggle<|END|>
+
+<|ACTION|>down<|END|>|toggle<|END|>
+
+<|ACTION|>left<|END|>|toggle<|END|>
+
+<|ACTION|>right<|END|>|toggle<|END|>
+
+<|ACTION|>up<|END|>|toggle<|END|>
+
+<|ACTION|>down<|END|>|toggle<|END|>
+
+<|ACTION|>left<|END|>|toggle<|END|>
+
+<|ACTION|>right<|END|>|toggle<|END|>
+
+<|ACTION|>up<|END|>|toggle<|END|>
+
+<|ACTION|>down<|END|>|toggle<|END|>
+
+<|ACTION|>left<|END|>|toggle<|END|>
+
+<|ACTION|>right<|END|>|toggle<|END|>
+
+<|ACTION|>up<|END|>|toggle<|END|>
+
+<|ACTION|>down<|END|>|toggle<|END|>
+
+<|ACTION|>left<|END|>|toggle<|END|>
+
+<|ACTION|>right<|END|>|toggle<|END|>
+
+<|ACTION|>up<|END|>|toggle<|END|>
+
+<|ACTION|>down<|END|>|toggle<|END|>
+
+<|ACTION|>left<|END|>|toggle<|END|>
+
+<|ACTION|>right<|END|>|toggle<|END|>
+
+<|ACTION|>up<|END|>|toggle<|END|>
+
+<|ACTION|>down<|END|>|toggle<|END|>
+
+<|ACTION|>left<|END|>|toggle<|END|>
+
+<|ACTION|>right<|END|>|toggle<|END|>
+
+<|ACTION|>up<|END|>|toggle<|END|>
+
+<|ACTION|>down<|END|>|toggle<|END|>
+
+<|ACTION|>left<|END|>|toggle<|END|>
+
+<|ACTION|>right<|END|>|toggle<|END|>
+
+<|ACTION|>up<|END|>|toggle<|END|>
+
+<|ACTION|>down<|END|>|toggle<|END|>
+
+<|ACTION|>left<|END|>|toggle<|END|>
+
+<|ACTION|>right<|END|>|toggle<|END|>
+
+<|ACTION|>up<|END|>|toggle<|END|>
+
+<|ACTION|>down<|END|>|toggle<|END|>
+
+<|ACTION|>left<|END|>|toggle<|END|>
+
+<|ACTION|>right<|END|>|toggle<|END|>
+
+<|ACTION|>up<|END|>|toggle<|END|>
+
+<|ACTION|>down<|END|>|toggle<|END|>
+
+<|ACTION|>left<|END|>|toggle<|END|>
+
+<|ACTION|>right<|END|>|toggle<|END|>
+
+<|ACTION|>up<|END|>|toggle<|END|>
+
+<|ACTION|>down<|END|>|toggle<|END|>
+
+<|Action|>left<|END|>|toggle<|END|>
+
+<|Action|>right<|END|>|toggle<|END|>
+
+<|Action|>up<|END|>|toggle<|END|>
+
+<|Action|>down<|END|>|toggle<|END|>
+
+<|Action|>left<|END|>|toggle<|END|>
+
+<|Action|>right<|END|>|toggle<|END|>
+
+<|Action|>up<|END|>|toggle<|END|>
+
+<|Action|>down<|END|>|toggle<|END|>
+
+<|Action|>left<|END|>|toggle<|END|>
+
+<|Action|>right<|END|>|toggle<|END|>
+
+<|Action|>up<|END|>|toggle<|END|>
+
+<|Action|>down<|END|>|toggle<|END|>
+
+<|Action|>left<|END|>|toggle<|END|>
+
+<|Action|>right<|END|>|toggle<|END|>
+
+<|Action|>up<|END|>|toggle<|END|>
+
+<|Action|>down<|END|>|toggle<|END|>
+
+<|Action|>left<|END|>|toggle<|END|>
+
+<|Action|>right<|END|>|toggle<|END|>
+
+<|Action|>up<|END|>|toggle<|END|>
+
+<|Action|>down<|END|>|toggle<|END|>
+
+<|Action|>left<|END|>|toggle<|END|>
+
+<|Action|>right<|END|>|toggle<|END|>
+
+<|Action|>up<|END|>|toggle<|END|>
+
+<|Action|>down<|END|>|toggle<|END|>
+
+<|Action|>left<|END|>|toggle<|END|>
+
+<|Action|>right<|END|>|toggle<|END|>
+
+<|Action|>up<|END|>|toggle<|END|>
+
+<|Action|>down<|END|>|toggle<|END|>
+
+<|Action|>left<|END|>|toggle<|END|>
+
+<|Action|>right<|END|>|toggle<|END|>
+
+<|Action|>up<|END|>|toggle<|END|>
+
+<|Action|>down<|END|>|toggle<|END|>
+
+<|Action|>left<|END|>|toggle<|END|>
+
+<|Action|>right<|END|>|toggle<|END|>
+
+<|Action|>up<|END|>|toggle<|END|>
+
+<|Action|>down<|END|>|toggle<|END|>
+
+<|Action|>left<|END|>|toggle<|END|>
+
+<|Action|>right<|END|>|toggle<|END|>
+
+<|Action|>up<|END|>|toggle<|END|>
+
+<|Action|>down<|END|>|toggle<|END|>
+
+<|Action|>left<|END|>|toggle<|END|>
+
+<|Action|>right<|END|>|toggle<|END|>
+
+<|Action|>up<|END|>|toggle<|END|>
+
+<|Action|>down<|END|>|toggle<|END|>
+
+<|Action|>left<|END|>|toggle<|END|>
+
+<|Action|>right<|END|>|toggle<|END|>
+
+<|Action|>up<|END|>|toggle<|END|>
+
+<|Action|>down<|END|>|toggle<|END|>
+
+<|Action|>left<|END|>|toggle<|END|>
+
+<|Action|>right<|END|>|toggle<|END|>
+
+<|Action|>up<|END|>|toggle<|END|>
+
+<|Action|>down<|END|>|toggle<|END|>
+
+<|Action|>left<|END|>|toggle<|END|>
+
+<|Action|>right<|END|>|toggle<|END|>
+
+<|Action|>up<|END|>|toggle<|END|>
+
+<|Action|>down<|END|>|toggle<|END|>
+
+<|Action|>left<|END|>|toggle<|END|>
+
+<|Action|>right<|END|>|toggle<|END|>
+
+<|Action|>up<|END|>|toggle<|END|>
+
+<|Action|>down<|END|>|toggle<|END|>
+
+<|Action|>left<|END|>|toggle<|END|>
+
+<|Action|>right<|END|>|toggle<|END|>
+
+<|Action|>up<|END|>|toggle<|END|>
+
+<|Action|>down<|END|>|toggle<|END|>
+
+<|Action|>left<|END|>|toggle<|END|>
+
+<|Action|>right<|END|>|toggle<|END|>
+
+<|Action|>up<|END|>|toggle<|END|>
+
+<|Action|>down<|END|>|toggle<|END|>
+
+<|Action|>left<|END|>|toggle<|END|>
+
+<|Action|>right<|END|>|toggle<|END|>
+
+<|Action|>up<|END|>|toggle<|END|>
+
+<|Action|>down<|END|>|toggle<|END|>
+
+<|Action|>left<|END|>|toggle<|END|>
+
+<|Action|>right<|END|>|toggle<|END|>
+
+<|Action|>up<|END|>|toggle<|END|>
+
+<|Action|>down<|END|>|toggle<|END|>
+
+<|Action|>left<|END|>|toggle<|END|>
+
+<|Action|>right<|END|>|toggle<|END|>
+
+<|Action|>up<|END|>|toggle<|END|>
+
+<|Action|>down<|END|>|toggle<|END|>
+
+<|Action|>left<|END|>|toggle<|END|>
+
+<|Action|>right<|END|>|toggle<|END|>
+
+<|Action|>up<|END|>|toggle<|END|>
+
+<|Action|>down<|END|>|toggle<|END|>
+
+<|Action|>left<|END|>|toggle<|END|>
+
+<|Action|>right<|END|>|toggle<|END|>
+
+<|Action|>up<|END|>|toggle<|END|>
+
+<|Action|>down<|END|>|toggle<|END|>
+
+<|Action|>left<|END|>|toggle<|END|>
+
+<|Action|>right<|END|>|toggle<|END|>
+
+<|Action|>up<|END|>|toggle<|END|>
+
+<|Action|>down<|END|>|toggle<|END|>
+
+<|Action|>left<|END|>|toggle<|END|>
+
+<|Action|>right<|END|>|toggle<|END|>
+
+<|Action|>up<|END|>|toggle<|END|>
+
+<|Action|>down<|END|>|toggle<|END|>
+
+<|Action|>left<|END|>|toggle<|END|>
+
+<|Action|>right<|END|>|toggle<|END|>
+
+<|Action|>up<|END|>|toggle<|END|>
+
+<|Action|>down<|END|>|toggle<|END|>
+
+<|Action|>left<|END|>|toggle<|END|>
+
+<|Action|>right<|END|>|toggle<|END|>
+
+<|Action|>up<|END|>|toggle<|END|>
+
+<|Action|>down<|END|>|toggle<|END|>
+
+<|Action|>left<|END|>|toggle<|END|>
+
+<|Action|>right<|END|>|toggle<|END|>
+
+<|Action|>up<|END|>|toggle<|END|>
+
+<|Action|>down<|END|>|toggle<|END|>
+
+<|Action|>left<|END|>|toggle<|END|>
+
+<|Action|>right<|END|>|toggle<|END|>
+
+<|Action|>up<|END|>|toggle<|END|>
+
+<|Action|>down<|END|>|toggle<|END|>
+
+<|Action|>left<|END|>|toggle<|END|>
+
+<|Action|>right<|","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step left
+a grey ball 1 step right",0,False
+32,Failed to obtain a valid action from the reasoning.,<|Go forward|>|End|>,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step left
+a grey ball 1 step right",0,False
+33,left,<|ACTION|>left<|END|>,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step left
+a grey ball 1 step right",0,False
+34,Failed to obtain a valid action from the reasoning.,"|ACTION| turn right|  
+|END|","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step left
+a grey ball 1 step right",0,False
+35,Failed to obtain a valid action from the reasoning.,"|ACTION|Toggle|
+|---|---|
+| | <|Toggle|>|END|>","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step left
+a grey ball 1 step right",0,False
+36,Failed to obtain a valid action from the reasoning.,"|ACTION|FORWARD|  
+|END|","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step left
+a grey ball 1 step right",0,False
+37,Failed to obtain a valid action from the reasoning.,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step left
+a grey ball 1 step right",0,False
+38,Failed to obtain a valid action from the reasoning.,"<|Action|>left<|END|>
+
+<|Action|>right<|END|>
+
+<|Action|>forward<|END|>
+
+<|Action|>toggle<|END|>
+
+<|Action|>drop<|END|>
+
+<|Action|>pick up<|END|>
+
+<|Action|>turn left<|END|>
+
+<|Action|>turn right<|END|>
+
+<|Action|>go forward<|END|>
+
+<|Action|>toggle<|END|>
+
+<|Action|>drop<|END|>
+
+<|Action|>pick up<|END|>
+
+<|Action|>turn left<|END|>
+
+<|Action|>turn right<|END|>
+
+<|Action|>forward<|END|>
+
+<|Action|>toggle<|END|>
+
+<|Action|>drop<|END|>
+
+<|Action|>pick up<|END|>
+
+<|Action|>turn left<|END|>
+
+<|Action|>turn right<|END|>
+
+<|Action|>forward<|END|>
+
+<|Action|>toggle<|END|>
+
+<|Action|>drop<|END|>
+
+<|Action|>pick up<|END|>
+
+<|Action|>turn left<|END|>
+
+<|Action|>turn right<|END|>
+
+<|Action|>forward<|END|>
+
+<|Action|>toggle<|END|>
+
+<|Action|>drop<|END|>
+
+<|Action|>pick up<|END|>
+
+<|Action|>turn left<|END|>
+
+<|Action|>turn right<|END|>
+
+<|Action|>forward<|END|>
+
+<|Action|>toggle<|END|>
+
+<|Action|>drop<|END|>
+
+<|Action|>pick up<|END|>
+
+<|Action|>turn left<|END|>
+
+<|Action|>turn right<|END|>
+
+<|Action|>forward<|END|>
+
+<|Action|>toggle<|END|>
+
+<|Action|>drop<|END|>
+
+<|Action|>pick up<|END|>
+
+<|Action|>turn left<|END|>
+
+<|Action|>turn right<|END|>
+
+<|Action|>forward<|END|>
+
+<|Action|>toggle<|END|>
+
+<|Action|>drop<|END|>
+
+<|Action|>pick up<|END|>
+
+<|Action|>turn left<|END|>
+
+<|Action|>turn right<|END|>
+
+<|Action|>forward<|END|>
+
+<|Action|>toggle<|END|>
+
+<|Action|>drop<|END|>
+
+<|Action|>pick up<|END|>
+
+<|Action|>turn left<|END|>
+
+<|Action|>turn right<|END|>
+
+<|Action|>forward<|END|>
+
+<|Action|>toggle<|END|>
+
+<|Action|>drop<|END|>
+
+<|Action|>pick up<|END|>
+
+<|Action|>turn left<|END|>
+
+<|Action|>turn right<|END|>
+
+<|Action|>forward<|END|>
+
+<|Action|>toggle<|END|>
+
+<|Action|>drop<|END|>
+
+<|Action|>pick up<|END|>
+
+<|Action|>turn left<|END|>
+
+<|Action|>turn right<|END|>
+
+<|Action|>forward<|END|>
+
+<|Action|>toggle<|END|>
+
+<|Action|>drop<|END|>
+
+<|Action|>pick up<|END|>
+
+<|Action|>turn left<|END|>
+
+<|Action|>turn right<|END|>
+
+<|Action|>forward<|END|>
+
+<|Action|>toggle<|END|>
+
+<|Action|>drop<|END|>
+
+<|Action|>pick up<|END|>
+
+<|Action|>turn left<|END|>
+
+<|Action|>turn right<|END|>
+
+<|Action|>forward<|END|>
+
+<|Action|>toggle<|END|>
+
+<|Action|>drop<|END|>
+
+<|Action|>pick up<|END|>
+
+<|Action|>turn left<|END|>
+
+<|Action|>turn right<|END|>
+
+<|Action|>forward<|END|>
+
+<|Action|>toggle<|END|>
+
+<|Action|>drop<|END|>
+
+<|Action|>pick up<|END|>
+
+<|Action|>turn left<|END|>
+
+<|Action|>turn right<|END|>
+
+<|Action|>forward<|END|>
+
+<|Action|>toggle<|END|>
+
+<|Action|>drop<|END|>
+
+<|Action|>pick up<|END|>
+
+<|Action|>turn left<|END|>
+
+<|Action|>turn right<|END|>
+
+<|Action|>forward<|END|>
+
+<|Action|>toggle<|END|>
+
+<|Action|>drop<|END|>
+
+<|Action|>pick up<|END|>
+
+<|Action|>turn left<|END|>
+
+<|Action|>turn right<|END|>
+
+<|Action|>forward<|END|>
+
+<|Action|>toggle<|END|>
+
+<|Action|>drop<|END|>
+
+<|Action|>pick up<|END|>
+
+<|Action|>turn left<|END|>
+
+<|Action|>turn right<|END|>
+
+<|Action|>forward<|END|>
+
+<|Action|>toggle<|END|>
+
+<|Action|>drop<|END|>
+
+<|Action|>pick up<|END|>
+
+<|Action|>turn left<|END|>
+
+<|Action|>turn right<|END|>
+
+<|Action|>forward<|END|>
+
+<|Action|>toggle<|END|>
+
+<|Action|>drop<|END|>
+
+<|Action|>pick up<|END|>
+
+<|Action|>turn left<|END|>
+
+<|Action|>turn right<|END|>
+
+<|Action|>forward<|END|>
+
+<|Action|>toggle<|END|>
+
+<|Action|>drop<|END|>
+
+<|Action|>pick up<|END|>
+
+<|Action|>turn left<|END|>
+
+<|Action|>turn right<|END|>
+
+<|Action|>forward<|END|>
+
+<|Action|>toggle<|END|>
+
+<|Action|>drop<|END|>
+
+<|Action|>pick up<|END|>
+
+<|Action|>turn left<|END|>
+
+<|Action|>turn right<|END|>
+
+<|Action|>forward<|END|>
+
+<|Action|>toggle<|END|>
+
+<|Action|>drop<|END|>
+
+<|Action|>pick up<|END|>
+
+<|Action|>turn left<|END|>
+
+<|Action|>turn right<|END|>
+
+<|Action|>forward<|END|>
+
+<|Action|>toggle<|END|>
+
+<|Action|>drop<|END|>
+
+<|Action|>pick up<|END|>
+
+<|Action|>turn left<|END|>
+
+<|Action|>turn right<|END|>
+
+<|Action|>forward<|END|>
+
+<|Action|>toggle<|END|>
+
+<|Action|>drop<|END|>
+
+<|Action|>pick up<|END|>
+
+<|Action|>turn left<|END|>
+
+<|Action|>turn right<|END|>
+
+<|Action|>forward<|END|>
+
+<|Action|>toggle<|END|>
+
+<|Action|>drop<|END|>
+
+<|Action|>pick up<|END|>
+
+<|Action|>turn left<|END|>
+
+<|Action|>turn right<|END|>
+
+<|Action|>forward<|END|>
+
+<|Action|>toggle<|END|>
+
+<|Action|>drop<|END|>
+
+<|Action|>pick up<|END|>
+
+<|Action|>turn left<|END|>
+
+<|Action|>turn right<|END|>
+
+<|Action|>forward<|END|>
+
+<|Action|>toggle<|END|>
+
+<|Action|>drop<|END|>
+
+<|Action|>pick up<|END|>
+
+<|Action|>turn left<|END|>
+
+<|Action|>turn right<|END|>
+
+<|Action|>forward<|END|>
+
+<|Action|>toggle<|END|>
+
+<|Action|>drop<|END|>
+
+<|Action|>pick up<|END|>
+
+<|Action|>turn left<|END|>
+
+<|Action|>turn right<|END|>
+
+<|Action|>forward<|END|>
+
+<|Action|>toggle<|END|>
+
+<|Action|>drop<|END|>
+
+<|Action|>pick up<|END|>
+
+<|Action|>turn left<|END|>
+
+<|Action|>turn right<|END|>
+
+<|Action|>forward<|END|>
+
+<|Action|>toggle<|END|>
+
+<|Action|>drop<|END|>
+
+<|Action|>pick up<|END|>
+
+<|Action|>turn left<|END|>
+
+<|Action|>turn right<|END|>
+
+<|Action|>forward<|END|>
+
+<|Action|>toggle<|END|>
+
+<|Action|>drop<|END|>
+
+<|Action|>pick up<|END|>
+
+<|Action|>turn left<|END|>
+
+<|Action|>turn right<|END|>
+
+<|Action|>forward<|END|>
+
+<|Action|>toggle<|END|>
+
+<|Action|>drop<|END|>
+
+<|Action|>pick up<|END|>
+
+<|Action|>turn left<|END|>
+
+<|Action|>turn right<|END|>
+
+<|Action|>forward<|END|>
+
+<|Action|>toggle<|END|>
+
+<|Action|>drop<|END|>
+
+<|Action|>pick up<|END|>
+
+<|Action|>turn left<|END|>
+
+<|Action|>turn right<|END|>
+
+<|Action|>forward<|END|>
+
+<|Action|>toggle<|END|>
+
+<|Action|>drop<|END|>
+
+<|Action|>pick up<|END|>
+
+<|Action|>toggle<|END|>
+
+<|Action|>drop<|END|>
+
+<|Action|>pick up<|END|>
+
+<|Action|>toggle<|END|>
+
+<|Action|>drop<|END|>
+
+<|Action|>pick up<|END|>
+
+<|Action|>toggle<|END|>
+
+<|Action|>drop<|END|>
+
+<|Action|>pick up<|END|>
+
+<|Action|>toggle<|END|>
+
+<|Action|>drop<|END|>
+
+<|Action|>pick up<|END|>
+
+<|Action|>toggle<|END|>
+
+<|Action|>drop<|END|>
+
+<|Action|>pick up<|END|>
+
+<|Action|>toggle<|END|>
+
+<|Action|>drop<|END|>
+
+<|Action|>pick up<|END|>
+
+<|Action|>toggle<|END|>
+
+<|Action|>drop<|END|>
+
+<|Action|>pick up<|END|>
+
+<|Action|>toggle<|END|>
+
+<|Action|>drop<|END|>
+
+<|Action|>pick up<|END|>
+
+<|Action|>toggle<|END|>
+
+<|Action|>drop<|END|>
+
+<|Action|>pick up<|END|>
+
+<|Action|>toggle<|END|>
+
+<|Action|>drop<|END|>
+
+<|Action|>pick up<|END|>
+
+<|Action|>toggle<|END|>
+
+<|Action|>drop<|END|>
+
+<|Action|>pick up<|END|>
+
+<|Action|>toggle<|END|>
+
+<|Action|>drop<|END|>
+
+<|Action|>pick up<|END|>
+
+<|Action|>toggle<|END|>
+
+<|Action|>drop<|END|>
+
+<|Action|>pick up<|END|>
+
+<|Action|>toggle<|END|>
+
+<|Action|>drop<|END|>
+
+<|Action|>pick up<|END|>
+
+<|Action|>toggle<|END|>
+
+<|Action|>drop<|END|>
+
+<|Action|>pick up<|END|>
+
+<|Action|>toggle<|END|>
+
+<|Action|>drop<|END|>
+
+<|Action|>pick up<|END|>
+
+<|Action|>toggle<|END|>
+
+<|Action|>drop<|END|>
+
+<|Action|>pick up<|END|>
+
+<|Action|>toggle<|END|>
+
+<|Action|>drop<|END|>
+
+<|Action|>pick up<|END|>
+
+<|Action|>toggle<|END|>
+
+<|Action|>drop<|END|>
+
+<|Action|>pick up<|END|>
+
+<|Action|>toggle<|END|>
+
+<|Action|>drop<|END|>
+
+<|Action|>pick up<|END|>
+
+<|Action|>toggle<|END|>
+
+<|Action|>drop<|END|>
+
+<|Action|>pick up<|END|>
+
+<|Action|>toggle<|END|>
+
+<|Action|>drop<|END|>
+
+<|Action|>pick up<|END|>
+
+<|Action|>toggle<|END|>
+
+<|Action|>drop<|END|>
+
+<|Action|>pick up<|END|>
+
+<|Action|>toggle<|END|>
+
+<|Action|>drop<|END|>
+
+<|Action|>pick up<|END|>
+
+<|Action|>toggle<|END|>
+
+<|Action|>drop<|END|>
+
+<|Action|>pick up<|END|>
+
+<|Action|>toggle<|END|>
+
+<|Action|>drop<|END|>
+
+<|Action|>pick up<|END|>
+
+<|Action|>toggle<|END|>
+
+<|Action|>drop<|END|>
+
+<|Action|>pick up<|END|>
+
+<|Action|>toggle<|END|>
+
+<|Action|>drop<|END|>
+
+<|Action|>pick up<|END|>
+
+<|Action|>toggle<|END|>
+
+<|Action|>drop<|END|>
+
+<|Action|>pick up<|END|>
+
+<|Action|>toggle<|END|>
+
+<|Action|>drop<|END|>
+
+<|Action|>pick up<|END|>
+
+<|Action|>toggle<|END|>
+
+<|Action|>drop<|END|>
+
+<|Action|>pick up<|END|>
+
+<|Action|>toggle<|END|>
+
+<|Action|>drop<|END|>
+
+<|Action|>pick up<|END|>
+
+<|","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step left
+a grey ball 1 step right",0,False
+39,Failed to obtain a valid action from the reasoning.,<|Action|>go forward<|END|>,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step left
+a grey ball 1 step right",0,False
+40,Failed to obtain a valid action from the reasoning.,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step left
+a grey ball 1 step right",0,False
+41,Failed to obtain a valid action from the reasoning.,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step left
+a grey ball 1 step right",0,False
+42,Failed to obtain a valid action from the reasoning.,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step left
+a grey ball 1 step right",0,False
+43,Failed to obtain a valid action from the reasoning.,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step left
+a grey ball 1 step right",0,False
+44,Failed to obtain a valid action from the reasoning.,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step left
+a grey ball 1 step right",0,False
+45,left,<|ACTION|>left<|END|>,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step left
+a grey ball 1 step right",0,False
+46,Failed to obtain a valid action from the reasoning.,"|ACTION|TOGGLE|  
+|END|","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step left
+a grey ball 1 step right",0,False
+47,Failed to obtain a valid action from the reasoning.,<|Action|>go forward<|END|>,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step left
+a grey ball 1 step right",0,False
+48,Failed to obtain a valid action from the reasoning.,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step left
+a grey ball 1 step right",0,False
+49,Failed to obtain a valid action from the reasoning.,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step left
+a grey ball 1 step right",0,False
+50,Failed to obtain a valid action from the reasoning.,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step left
+a grey ball 1 step right",0,False
+51,turn left,<|ACTION|>turn left<|END|>,"a wall 1 step forward
+a wall 1 step right",0,False
+52,Failed to obtain a valid action from the reasoning.,"<|Pick up|>PICK UP<|END|>
+
+<|Action|>PICK UP<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|Action|>GO FORWARD<|END|>
+
+<|","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+53,left,"<|ACTION|>left<|END|>
+
+<|ACTION|>right<|END|>
+
+<|ACTION|>back<|END|>
+
+<|ACTION|>go forward<|END|>
+
+<|ACTION|>toggle<|END|>
+
+<|ACTION|>drop<|END|>
+
+<|ACTION|>pick up<|END|>
+
+<|ACTION|>go back<|END|>
+
+<|ACTION|>turn left<|END|>
+
+<|ACTION|>turn right<|END|>
+
+<|ACTION|>go forward<|END|>
+
+<|ACTION|>toggle<|END|>
+
+<|ACTION|>pick up<|END|>
+
+<|ACTION|>drop<|END|>
+
+<|ACTION|>go back<|END|>
+
+<|ACTION|>turn left<|END|>
+
+<|ACTION|>turn right<|END|>
+
+<|ACTION|>go forward<|END|>
+
+<|ACTION|>toggle<|END|>
+
+<|ACTION|>pick up<|END|>
+
+<|ACTION|>drop<|END|>
+
+<|ACTION|>go back<|END|>
+
+<|ACTION|>turn left<|END|>
+
+<|ACTION|>turn right<|END|>
+
+<|ACTION|>go forward<|END|>
+
+<|ACTION|>toggle<|END|>
+
+<|ACTION|>pick up<|END|>
+
+<|ACTION|>drop<|END|>
+
+<|ACTION|>go back<|END|>
+
+<|ACTION|>turn left<|END|>
+
+<|ACTION|>turn right<|END|>
+
+<|ACTION|>go forward<|END|>
+
+<|ACTION|>toggle<|END|>
+
+<|ACTION|>pick up<|END|>
+
+<|ACTION|>drop<|END|>
+
+<|ACTION|>go back<|END|>
+
+<|ACTION|>turn left<|END|>
+
+<|ACTION|>turn right<|END|>
+
+<|ACTION|>go forward<|END|>
+
+<|ACTION|>toggle<|END|>
+
+<|ACTION|>pick up<|END|>
+
+<|ACTION|>drop<|END|>
+
+<|ACTION|>go back<|END|>
+
+<|ACTION|>turn left<|END|>
+
+<|ACTION|>turn right<|END|>
+
+<|ACTION|>go forward<|END|>
+
+<|ACTION|>toggle<|END|>
+
+<|Action|pick up<|END|>
+
+<|Action>drop<|END|>
+
+<|Action>toggle<|END|>
+
+<|Action>turn left<|END|>
+
+<|Action>turn right<|END|>
+
+<|Action>go forward<|END|>
+
+<|Action>toggle<|END|>
+
+<|Action>pick up<|END|>
+
+<|Action>drop<|END|>
+
+<|Action>go back<|END|>
+
+<|Action>turn left<|END|>
+
+<|Action>turn right<|END|>
+
+<|Action>go forward<|END|>
+
+<|Action>toggle<|END|>
+
+<|Action>pick up<|END|>
+
+<|Action>drop<|END|>
+
+<|Action>go back<|END|>
+
+<|Action>turn left<|END|>
+
+<|Action>turn right<|END|>
+
+<|Action>go forward<|END|>
+
+<|Action>toggle<|END|>
+
+<|Action>pick up<|END|>
+
+<|Action>drop<|END|>
+
+<|Action>go back<|END|>
+
+<|Action>turn left<|END|>
+
+<|Action>turn right<|END|>
+
+<|Action>go forward<|END|>
+
+<|Action>toggle<|END|>
+
+<|Action>pick up<|END|>
+
+<|Action>drop<|END|>
+
+<|Action>go back<|END|>
+
+<|Action>turn left<|END|>
+
+<|Action>turn right<|END|>
+
+<|Action>go forward<|END|>
+
+<|Action>toggle<|END|>
+
+<|Action>pick up<|END|>
+
+<|Action>drop<|END|>
+
+<|Action>go back<|END|>
+
+<|Action>turn left<|END|>
+
+<|Action>turn right<|END|>
+
+<|Action>go forward<|END|>
+
+<|Action>toggle<|END|>
+
+<|Action>pick up<|END|>
+
+<|Action>drop<|END|>
+
+<|Action>go back<|END|>
+
+<|Action>turn left<|END|>
+
+<|Action>turn right<|END|>
+
+<|Action>go forward<|END|>
+
+<|Action>toggle<|END|>
+
+<|Action>pick up<|END|>
+
+<|Action>drop<|END|>
+
+<|Action>go back<|END|>
+
+<|Action>turn left<|END|>
+
+<|Action>turn right<|END|>
+
+<|Action>go forward<|END|>
+
+<|Action>toggle<|END|>
+
+<|Action>pick up<|END|>
+
+<|Action>drop<|END|>
+
+<|Action>go back<|END|>
+
+<|Action>turn left<|END|>
+
+<|Action>turn right<|END|>
+
+<|Action>go forward<|END|>
+
+<|Action>toggle<|END|>
+
+<|Action>pick up<|END|>
+
+<|Action>drop<|END|>
+
+<|Action>go back<|END|>
+
+<|Action>turn left<|END|>
+
+<|Action>turn right<|END|>
+
+<|Action>go forward<|END|>
+
+<|Action>toggle<|END|>
+
+<|Action>pick up<|END|>
+
+<|Action>drop<|END|>
+
+<|Action>go back<|END|>
+
+<|Action>turn left<|END|>
+
+<|Action>turn right<|END|>
+
+<|Action>go forward<|END|>
+
+<|Action>toggle<|END|>
+
+<|Action>pick up<|END|>
+
+<|Action>drop<|END|>
+
+<|Action>go back<|END|>
+
+<|Action>turn left<|END|>
+
+<|Action>turn right<|END|>
+
+<|Action>go forward<|END|>
+
+<|Action>toggle<|END|>
+
+<|Action>pick up<|END|>
+
+<|Action>drop<|END|>
+
+<|Action>go back<|END|>
+
+<|Action>turn left<|END|>
+
+<|Action>turn right<|END|>
+
+<|Action>go forward<|END|>
+
+<|Action>toggle<|END|>
+
+<|Action>pick up<|END|>
+
+<|Action>drop<|END|>
+
+<|Action>go back<|END|>
+
+<|Action>turn left<|END|>
+
+<|Action>turn right<|END|>
+
+<|Action>go forward<|END|>
+
+<|Action>toggle<|END|>
+
+<|Action>pick up<|END|>
+
+<|Action>drop<|END|>
+
+<|Action>go back<|END|>
+
+<|Action>turn left<|END|>
+
+<|Action>turn right<|END|>
+
+<|Action>go forward<|END|>
+
+<|Action>toggle<|END|>
+
+<|Action>pick up<|END|>
+
+<|Action>drop<|END|>
+
+<|Action>go back<|END|>
+
+<|Action>turn left<|END|>
+
+<|Action>turn right<|END|>
+
+<|Action>go forward<|END|>
+
+<|Action>toggle<|END|>
+
+<|Action>pick up<|END|>
+
+<|Action>drop<|END|>
+
+<|Action>go back<|END|>
+
+<|Action>turn left<|END|>
+
+<|Action>turn right<|END|>
+
+<|Action>go forward<|END|>
+
+<|Action>toggle<|END|>
+
+<|Action>pick up<|END|>
+
+<|Action>drop<|END|>
+
+<|Action>go back<|END|>
+
+<|Action>turn left<|END|>
+
+<|Action>turn right<|END|>
+
+<|Action>go forward<|END|>
+
+<|Action>toggle<|END|>
+
+<|Action>pick up<|END|>
+
+<|Action>drop<|END|>
+
+<|Action>go back<|END|>
+
+<|Action>turn left<|END|>
+
+<|Action>turn right<|END|>
+
+<|Action>go forward<|END|>
+
+<|Action>toggle<|END|>
+
+<|Action>pick up<|END|>
+
+<|Action>drop<|END|>
+
+<|Action>go back<|END|>
+
+<|Action>turn left<|END|>
+
+<|Action>turn right<|END|>
+
+<|Action>go forward<|END|>
+
+<|Action>toggle<|END|>
+
+<|Action>pick up<|END|>
+
+<|Action>drop<|END|>
+
+<|Action>go back<|END|>
+
+<|Action>turn left<|END|>
+
+<|Action>turn right<|END|>
+
+<|Action>go forward<|END|>
+
+<|Action>toggle<|END|>
+
+<|Action>pick up<|END|>
+
+<|Action>drop<|END|>
+
+<|Action>go back<|END|>
+
+<|Action>turn left<|END|>
+
+<|Action>turn right<|END|>
+
+<|Action>go forward<|END|>
+
+<|Action>toggle<|END|>
+
+<|Action>pick up<|END|>
+
+<|Action>drop<|END|>
+
+<|Action>go back<|END|>
+
+<|Action>turn left<|END|>
+
+<|Action>turn right<|END|>
+
+<|Action>go forward<|END|>
+
+<|Action>toggle<|END|>
+
+<|Action>pick up<|END|>
+
+<|Action>drop<|END|>
+
+<|Action>go back<|END|>
+
+<|Action>turn left<|END|>
+
+<|Action>turn right<|END|>
+
+<|Action>go forward<|END|>
+
+<|Action>toggle<|END|>
+
+<|Action>pick up<|END|>
+
+<|Action>drop<|END|>
+
+<|Action>go back<|END|>
+
+<|Action>turn left<|END|>
+
+<|Action>turn right<|END|>
+
+<|Action>go forward<|END|>
+
+<|Action>toggle<|END|>
+
+<|Action>pick up<|END|>
+
+<|Action>drop<|END|>
+
+<|Action>go back<|END|>
+
+<|Action>turn left<|END|>
+
+<|Action>turn right<|END|>
+
+<|Action>go forward<|END|>
+
+<|Action>toggle<|END|>
+
+<|Action>pick up<|END|>
+
+<|Action>drop<|END|>
+
+<|Action>toggle<|END|>
+
+<|Action>pick up<|END|>
+
+<|Action>drop<|END|>
+
+<|Action>toggle<|END|>
+
+<|Action>pick up<|END|>
+
+<|Action>drop<|END|>
+
+<|Action>toggle<|END|>
+
+<|Action>pick up<|END|>
+
+<|Action>drop<|END|>
+
+<|Action>toggle<|END|>
+
+<|Action>pick up<|END|>
+
+<|Action>drop<|END|>
+
+<|Action>toggle<|END|>
+
+<|Action>pick up<|END|>
+
+<|Action>drop<|END|>
+
+<|Action>toggle<|END|>
+
+<|Action>pick up<|END|>
+
+<|Action>drop<|END|>
+
+<|Action>toggle<|END|>
+
+<|Action>pick up<|END|>
+
+<|Action>drop<|END|>
+
+<|Action>toggle<|END|>
+
+<|Action>pick up<|END|>
+
+<|Action>drop<|END|>
+
+<|Action>toggle<|END|>
+
+<|Action>pick up<|END|>
+
+<|Action>drop<|END|>
+
+<|Action>toggle<|END|>
+
+<|Action>pick up<|END|>
+
+<|Action>drop<|END|>
+
+<|Action>toggle<|END|>
+
+<|Action>pick up<|END|>
+
+<|Action>drop<|END|>
+
+<|Action>toggle<|END|>
+
+<|Action>pick up<|END|>
+
+<|Action>drop<|END|>
+
+<|Action>toggle<|END|>
+
+<|Action>pick up<|END|>
+
+<|Action>drop<|END|>
+
+<|Action>toggle<|END|>
+
+<|Action>pick up<|END|>
+
+<|Action>drop<|END|>
+
+<|Action>toggle<|END|>
+
+<|Action>pick up<|END|>
+
+<|Action>drop<|END|>
+
+<|Action>toggle<|END|>
+
+<|Action>pick up<|END|>
+
+<|Action>drop<|END|>
+
+<|Action>toggle<|END|>
+
+<|Action>pick up<|END|>
+
+<|Action>drop<|END|>
+
+<|Action>toggle<|END|>
+
+<|Action>pick up<|END|>
+
+<|Action>drop<|END|>
+
+<|Action>toggle<|END|>
+
+<|Action>pick up<|END|>
+
+<|Action>drop<|END|>
+
+<|Action>toggle<|END|>
+
+<|Action>pick up<|END|>
+
+<|Action>drop<|END|>
+
+<|Action>toggle<|END|>
+
+<|Action>pick up<|END|>
+
+<|Action>drop<|END|>
+
+<|Action>toggle<|END|>
+
+<|Action>pick up<|END|>
+
+<|Action>drop<|END|>
+
+<|Action>toggle<|END|>
+
+<|Action>pick up<|END|>
+
+<|Action>drop<|END|>
+
+<|Action>toggle<|END|>
+
+<|Action>pick up<|END|>
+
+<|Action>drop<|END|>
+
+<|Action>toggle<|END|>
+
+<|Action>pick up<|END|>
+
+<|Action>drop<|END|>
+
+<|Action>toggle<|END|>
+
+<|Action>pick up<|END|>
+
+<|Action>drop<|END|>
+
+<|Action>toggle<|END|>
+
+<|Action>pick up<|END|>
+
+<|Action>drop<|END|>
+
+<|Action>toggle<|END|>
+
+<|Action>pick up<|END|>
+
+<|Action>drop<|END|>
+
+<|Action>toggle<|END|>
+
+<|Action>pick up<|END|>
+
+<|Action>drop<|END|>
+
+<|Action>toggle<|END|>
+
+<|Action>pick up<|END|>
+
+<|Action>drop<|END|>
+
+<|Action>toggle<|END|>
+
+<|Action>pick up<|END|>
+
+<|Action>drop<|END|>
+
+<|Action>toggle<|END|>
+
+<|Action>pick up<|END|>
+
+<|Action>drop<|END|>
+
+<|Action>toggle<|END|>
+
+<|Action>pick up<|END|>
+
+<|Action>drop<|END|>
+
+<|Action>toggle<|END|>
+
+<|Action>pick up<|END|>
+
+<|Action>drop<|END|>
+
+<|Action>toggle<|END|>
+
+<|Action>pick up<|END|>
+
+<|Action>","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+54,Failed to obtain a valid action from the reasoning.,"|ACTION|THE RIGHT WALL|
+|---|---|
+|Failed to obtain a valid action from the reasoning.|
+|Action: toggle right|","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+55,Failed to obtain a valid action from the reasoning.,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+56,Failed to obtain a valid action from the reasoning.,<|Go forward|>GO forward<|END|>,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+57,Failed to obtain a valid action from the reasoning.,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+58,Failed to obtain a valid action from the reasoning.,<|Action|>go forward<|END|>,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+59,Failed to obtain a valid action from the reasoning.,"|ACTION|GO FORWARD
+|END|","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+60,Failed to obtain a valid action from the reasoning.,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+61,Failed to obtain a valid action from the reasoning.,<|Action|>left<|END|>,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+62,Failed to obtain a valid action from the reasoning.,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,False
+63,Failed to obtain a valid action from the reasoning.,<|Go forward|>GO forward<|END|>,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step right",0,True

@@ -1,0 +1,985 @@
+Step,Action,Reasoning,Observation,Reward,Done
+0,Failed to obtain a valid action from the reasoning.,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step left",0,False
+1,toggle left,<|ACTION|>toggle left<|END|>,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step left",0,False
+2,Failed to obtain a valid action from the reasoning.,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step left",0,False
+3,toggle left,<|ACTION|>toggle left<|END|>,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step left",0,False
+4,Failed to obtain a valid action from the reasoning.,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step left",0,False
+5,toggle left,<|ACTION|>toggle left<|END|>,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step left",0,False
+6,pick up,<|ACTION|>pick up<|END|>,"a wall 1 step forward
+a wall 1 step left",0,False
+7,Failed to obtain a valid action from the reasoning.,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step left",0,False
+8,go forward,<|ACTION|>go forward<|END|>,"a wall 1 step forward
+a wall 1 step left",0,False
+9,Failed to obtain a valid action from the reasoning.,<|Action|>toggle left<|END|>,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step left",0,False
+10,Failed to obtain a valid action from the reasoning.,"|ACTION|toggle left|
+|---|---|
+| |","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step left",0,False
+11,Failed to obtain a valid action from the reasoning.,"|ACTION|GO FORWARD|
+|---|---|
+| |","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step left",0,False
+12,go forward,"<|ACTION|>go forward<|END|>
+
+<|ACTION|>toggle left<|END|>
+
+<|ACTION|>toggle right<|END|>
+
+<|ACTION|>pick up<|END|>
+
+<|ACTION|>drop<|END|>
+
+<|ACTION|>go back left<|END|>
+
+<|ACTION|>go back right<|END|>
+
+<|ACTION|>go forward<|END|>
+
+<|ACTION|>go forward left<|END|>
+
+<|ACTION|>go forward right<|END|>
+
+<|ACTION|>toggle left<|END|>
+
+<|ACTION|>toggle right<|END|>
+
+<|ACTION|>pick up left<|END|>
+
+<|ACTION|>pick up right<|END|>
+
+<|ACTION|>drop left<|END|>
+
+<|ACTION|>drop right<|END|>
+
+<|ACTION|>toggle left<|END|>
+
+<|ACTION|>toggle right<|END|>
+
+<|ACTION|>pick up left<|END|>
+
+<|ACTION|>pick up right<|END|>
+
+<|ACTION|>drop left<|END|>
+
+<|ACTION|>drop right<|END|>
+
+<|ACTION|>toggle left<|END|>
+
+<|ACTION|>toggle right<|END|>
+
+<|ACTION|>pick up left<|END|>
+
+<|ACTION|>pick up right<|END|>
+
+<|ACTION|>drop left<|END|>
+
+<|ACTION|>drop right<|END|>
+
+<|ACTION|>toggle left<|END|>
+
+<|ACTION|>toggle right<|END|>
+
+<|ACTION|>pick up left<|END|>
+
+<|ACTION|>pick up right<|END|>
+
+<|Action|>drop left<|END|>
+
+<|Action|>drop right<|END|>
+
+<|Action|>toggle left<|END|>
+
+<|Action|>toggle right<|END|>
+
+<|Action|>pick up left<|END|>
+
+<|Action|>pick up right<|END|>
+
+<|Action|>drop left<|END|>
+
+<|Action|>drop right<|END|>
+
+<|Action|>toggle left<|END|>
+
+<|Action|>toggle right<|END|>
+
+<|Action|>pick up left<|END|>
+
+<|Action|>pick up right<|END|>
+
+<|Action|>drop left<|END|>
+
+<|Action|>drop right<|END|>
+
+<|Action|>toggle left<|END|>
+
+<|Action|>toggle right<|END|>
+
+<|Action|>pick up left<|END|>
+
+<|Action|>pick up right<|END|>
+
+<|Action|>drop left<|END|>
+
+<|Action|>drop right<|END|>
+
+<|Action|>toggle left<|END|>
+
+<|Action|>toggle right<|END|>
+
+<|Action|>pick up left<|END|>
+
+<|Action|>pick up right<|END|>
+
+<|Action|>drop left<|END|>
+
+<|Action|>drop right<|END|>
+
+<|Action|>toggle left<|END|>
+
+<|Action|>toggle right<|END|>
+
+<|Action|>pick up left<|END|>
+
+<|Action|>pick up right<|END|>
+
+<|Action|>drop left<|END|>
+
+<|Action|>drop right<|END|>
+
+<|Action|>toggle left<|END|>
+
+<|Action|>toggle right<|END|>
+
+<|Action|>pick up left<|END|>
+
+<|Action|>pick up right<|END|>
+
+<|Action|>drop left<|END|>
+
+<|Action|>drop right<|END|>
+
+<|Action|>toggle left<|END|>
+
+<|Action|>toggle right<|END|>
+
+<|Action|>pick up left<|END|>
+
+<|Action|>pick up right<|END|>
+
+<|Action|>drop left<|END|>
+
+<|Action|>drop right<|END|>
+
+<|Action|>toggle left<|END|>
+
+<|Action|>toggle right<|END|>
+
+<|Action|>pick up left<|END|>
+
+<|Action|>pick up right<|END|>
+
+<|Action|>drop left<|END|>
+
+<|Action|>drop right<|END|>
+
+<|Action|>toggle left<|END|>
+
+<|Action|>toggle right<|END|>
+
+<|Action|>pick up left<|END|>
+
+<|Action|>pick up right<|END|>
+
+<|Action|>drop left<|END|>
+
+<|Action|>drop right<|END|>
+
+<|Action|>toggle left<|END|>
+
+<|Action|>toggle right<|END|>
+
+<|Action|>pick up left<|END|>
+
+<|Action|>pick up right<|END|>
+
+<|Action|>drop left<|END|>
+
+<|Action|>drop right<|END|>
+
+<|Action|>toggle left<|END|>
+
+<|Action|>toggle right<|END|>
+
+<|Action|>pick up left<|END|>
+
+<|Action|>pick up right<|END|>
+
+<|Action|>drop left<|END|>
+
+<|Action|>drop right<|END|>
+
+<|Action|>toggle left<|END|>
+
+<|Action|>toggle right<|END|>
+
+<|Action|>pick up left<|END|>
+
+<|Action|>pick up right<|END|>
+
+<|Action|>drop left<|END|>
+
+<|Action|>drop right<|END|>
+
+<|Action|>toggle left<|END|>
+
+<|Action|>toggle right<|END|>
+
+<|Action|>pick up left<|END|>
+
+<|Action|>pick up right<|END|>
+
+<|Action|>drop left<|END|>
+
+<|Action|>drop right<|END|>
+
+<|Action|>toggle left<|END|>
+
+<|Action|>toggle right<|END|>
+
+<|Action|>pick up left<|END|>
+
+<|Action|>pick up right<|END|>
+
+<|Action|>drop left<|END|>
+
+<|Action|>drop right<|END|>
+
+<|Action|>toggle left<|END|>
+
+<|Action|>toggle right<|END|>
+
+<|Action|>pick up left<|END|>
+
+<|Action|>pick up right<|END|>
+
+<|Action|>drop left<|END|>
+
+<|Action|>drop right<|END|>
+
+<|Action|>toggle left<|END|>
+
+<|Action|>toggle right<|END|>
+
+<|Action|>pick up left<|END|>
+
+<|Action|>pick up right<|END|>
+
+<|Action|>drop left<|END|>
+
+<|Action|>drop right<|END|>
+
+<|Action|>toggle left<|END|>
+
+<|Action|>toggle right<|END|>
+
+<|Action|>pick up left<|END|>
+
+<|Action|>pick up right<|END|>
+
+<|Action|>drop left<|END|>
+
+<|Action|>drop right<|END|>
+
+<|Action|>toggle left<|END|>
+
+<|Action|>toggle right<|END|>
+
+<|Action|>pick up left<|END|>
+
+<|Action|>pick up right<|END|>
+
+<|Action|>drop left<|END|>
+
+<|Action|>drop right<|END|>
+
+<|Action|>toggle left<|END|>
+
+<|Action|>toggle right<|END|>
+
+<|Action|>pick up left<|END|>
+
+<|Action|>pick up right<|END|>
+
+<|Action|>drop left<|END|>
+
+<|Action|>drop right<|END|>
+
+<|Action|>toggle left<|END|>
+
+<|Action|>toggle right<|END|>
+
+<|Action|>pick up left<|END|>
+
+<|Action|>pick up right<|END|>
+
+<|Action|>drop left<|END|>
+
+<|Action|>drop right<|END|>
+
+<|Action|>toggle left<|END|>
+
+<|Action|>toggle right<|END|>
+
+<|Action|>pick up left<|END|>
+
+<|Action|>pick up right<|END|>
+
+<|Action|>drop left<|END|>
+
+<|Action|>drop right<|END|>
+
+<|Action|>toggle left<|END|>
+
+<|Action|>toggle right<|END|>
+
+<|Action|>pick up left<|END|>
+
+<|Action|>pick up right<|END|>
+
+<|Action|>drop left<|END|>
+
+<|Action|>drop right<|END|>
+
+<|Action|>toggle left<|END|>
+
+<|Action|>toggle right<|END|>
+
+<|Action|>pick up left<|END|>
+
+<|Action|>pick up right<|END|>
+
+<|Action|>drop left<|END|>
+
+<|Action|>drop right<|END|>
+
+<|Action|>toggle left<|END|>
+
+<|Action|>toggle right<|END|>
+
+<|Action|>pick up left<|END|>
+
+<|Action|>pick up right<|END|>
+
+<|Action|>drop left<|END|>
+
+<|Action|>drop right<|END|>
+
+<|Action|>toggle left<|END|>
+
+<|Action|>toggle right<|END|>
+
+<|Action|>pick up left<|END|>
+
+<|Action|>pick up right<|END|>
+
+<|Action|>drop left<|END|>
+
+<|Action|>drop right<|END|>
+
+<|Action|>toggle left<|END|>
+
+<|Action|>toggle right<|END|>
+
+<|Action|>pick up left<|END|>
+
+<|Action|>pick up right<|END|>
+
+<|Action|>drop left<|END|>
+
+<|Action|>drop right<|END|>
+
+<|Action|>toggle left<|END|>
+
+<|Action|>toggle right<|END|>
+
+<|Action|>pick up left<|END|>
+
+<|Action|>pick up right<|END|>
+
+<|Action|>drop left<|END|>
+
+<|Action|>drop right<|END|>
+
+<|Action|>toggle left<|END|>
+
+<|Action|>toggle right<|END|>
+
+<|Action|>pick up left<|END|>
+
+<|Action|>pick up right<|END|>
+
+<|Action|>drop left<|END|>
+
+<|Action|>drop right<|END|>
+
+<|Action|>toggle left<|END|>
+
+<|Action|>toggle right<|END|>
+
+<|Action|>pick up left<|END|>
+
+<|Action|>pick up right<|END|>
+
+<|Action|>drop left<|END|>
+
+<|Action|>drop right<|END|>
+
+<|Action|>toggle left<|END|>
+
+<|Action|>toggle right<|END|>
+
+<|Action|>pick up left<|END|>
+
+<|Action|>pick up right<|END|>
+
+<|Action|>drop left<|END|>
+
+<|Action|>drop right<|END|>
+
+<|Action|>toggle left<|END|>
+
+<|Action|>toggle right<|END|>
+
+<|Action|>pick up left<|END|>
+
+<|Action|>pick up right<|END|>
+
+<|Action|>drop left<|END|>
+
+<|Action|>drop right<|END|>
+
+<|Action|>toggle left<|END|>
+
+<|Action|>toggle right<|END|>
+
+<|Action|>pick up left<|END|>
+
+<|Action|>pick up right<|END|>
+
+<|Action|>drop left<|END|>
+
+<|Action|>drop right<|END|>
+
+<|Action|>toggle left<|END|>
+
+<|Action|>toggle right<|END|>
+
+<|Action|>pick up left<|END|>
+
+<|Action|>pick up right<|END|>
+
+<|Action|>drop left<|END|>
+
+<|Action|>drop right<|END|>
+
+<|Action|>toggle left<|END|>
+
+<|Action|>toggle right<|END|>
+
+<|Action|>pick up left<|END|>
+
+<|Action|>pick up right<|END|>
+
+<|Action|>drop left<|END|>
+
+<|Action|>drop right<|END|>
+
+<|Action|>toggle left<|END|>
+
+<|Action|>toggle right<|END|>
+
+<|Action|>pick up left<|END|>
+
+<|Action|>pick up right<|END|>
+
+<|Action|>drop left<|END|>
+
+<|Action|>drop right<|END|>
+
+<|Action|>toggle left<|END|>
+
+<|Action|>toggle right<|END|>
+
+<|Action|>pick up left<|END|>
+
+<|Action|>pick up right<|END|>
+
+<|Action|>drop left<|END|>
+
+<|Action|>drop right<|END|>
+
+<|Action|>toggle left<|END|>
+
+<|Action|>toggle right<|END|>
+
+<|Action|>pick up left<|END|>
+
+<|Action|>pick up right<|END|>
+
+<|Action|>drop left<|END|>
+
+<|Action|>drop right<|END|>
+
+<|Action|>toggle left<|END|>
+
+<|Action|>toggle right<|END|>
+
+<|Action|>pick up left<|END|>
+
+<|Action|>pick up right<|END|>
+
+<|Action|>drop left<|END|>
+
+<|Action|>drop right<|END|>
+
+<|Action|>toggle left<|END|>
+
+<|Action|>toggle right<|END|>
+
+<|Action|>pick up left<|END|>
+
+<|Action|>pick up right<|END|>
+
+<|Action|>drop left<|END|>
+
+<|Action|>drop right<|END|>
+
+<|Action|>toggle left<|END|>
+
+<|Action|>toggle right<|END|>
+
+<|Action|>pick up left<|END|>
+
+<|Action|>pick up right<|END|>
+
+<|Action|>drop left<|END|>
+
+<|Action|>drop right<|END|>
+
+<|Action|>toggle left<|END|>
+
+<|Action|>toggle right<|END|>
+
+<|Action|>pick up left<|END|>
+
+<|Action|>pick up right<|END|>
+
+<|Action|>drop left<|END|>
+
+<|Action|>drop right<|END|>
+
+<|","a wall 1 step forward
+a wall 1 step left",0,False
+13,Failed to obtain a valid action from the reasoning.,<|Toggle left|>,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step left",0,False
+14,Failed to obtain a valid action from the reasoning.,"The best course of action is to ""toggle left."" This allows the player to interact with the wall in the left direction, assuming they have an object to pick up. If this doesn't work, the player can then try ""toggle right."" If neither of these actions works, the player may need to pick up something else or navigate around the walls by turning left or right.
+
+<|toggle left|>","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step left",0,False
+15,Failed to obtain a valid action from the reasoning.,<|Action|>go forward<|END|>,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step left",0,False
+16,Failed to obtain a valid action from the reasoning.,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step left",0,False
+17,Failed to obtain a valid action from the reasoning.,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step left",0,False
+18,Failed to obtain a valid action from the reasoning.,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step left",0,False
+19,go forward,<|ACTION|>go forward<|END|>,"a wall 1 step forward
+a wall 1 step left",0,False
+20,left,<|ACTION|>left<|END|>,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step left",0,False
+21,Failed to obtain a valid action from the reasoning.,<|Go forward|>GO_forward<|END|>,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step left",0,False
+22,Failed to obtain a valid action from the reasoning.,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step left",0,False
+23,left,<|ACTION|>left<|END|>,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step left",0,False
+24,go forward,<|ACTION|>go forward<|END|>,"a wall 1 step forward
+a wall 1 step left",0,False
+25,Failed to obtain a valid action from the reasoning.,"|Action| forward
+|END|","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step left",0,False
+26,Failed to obtain a valid action from the reasoning.,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step left",0,False
+27,left,"<|ACTION|>left<|END|>
+
+The observation shows a wall in front and one step left. To avoid the wall, turning left changes the facing direction, allowing me to proceed forward again.","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step left",0,False
+28,left,<|ACTION|>left<|END|>,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step left",0,False
+29,left,<|ACTION|>left<|END|>,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step left",0,False
+30,Failed to obtain a valid action from the reasoning.,"|ACTION|left|
+|---|---|
+| |left|","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step left",0,False
+31,Failed to obtain a valid action from the reasoning.,<|Go forward|>GO_forward<|END|>,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step left",0,False
+32,left,<|ACTION|>left<|END|>,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step left",0,False
+33,Failed to obtain a valid action from the reasoning.,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step left",0,False
+34,go forward,<|ACTION|>go forward<|END|>,"a wall 1 step forward
+a wall 1 step left",0,False
+35,Failed to obtain a valid action from the reasoning.,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step left",0,False
+36,left,<|ACTION|>left<|END|>,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step left",0,False
+37,Failed to obtain a valid action from the reasoning.,"|Action|YOUR_CHOSEN_ACTION|
+|---|---|
+|go forward|go forward|","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step left",0,False
+38,Failed to obtain a valid action from the reasoning.,|ACTION|FORWARD<|END|>,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step left",0,False
+39,Failed to obtain a valid action from the reasoning.,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step left",0,False
+40,left,<|ACTION|>left<|END|>,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step left",0,False
+41,Failed to obtain a valid action from the reasoning.,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step left",0,False
+42,left,<|ACTION|>left<|END|>,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step left",0,False
+43,Failed to obtain a valid action from the reasoning.,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step left",0,False
+44,Failed to obtain a valid action from the reasoning.,|Pick up|YOUR_CHOSEN_ACTION|,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step left",0,False
+45,Failed to obtain a valid action from the reasoning.,"|ACTION|GO FORWARD|
+|END|","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step left",0,False
+46,Failed to obtain a valid action from the reasoning.,<|Go forward|>GO_forward<|END|>,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step left",0,False
+47,Failed to obtain a valid action from the reasoning.,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step left",0,False
+48,go forward,<|ACTION|>go forward<|END|>,"a wall 1 step forward
+a wall 1 step left",0,False
+49,Failed to obtain a valid action from the reasoning.,<|Action|>go forward<|END|>,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step left",0,False
+50,Failed to obtain a valid action from the reasoning.,"<|Action|>left<|END|>
+
+The observation shows walls in front and to the left. Turning left allows me to avoid the wall in front and proceed forward towards the green box.","
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step left",0,False
+51,turn right,<|ACTION|>turn right<|END|>,"a wall 6 steps forward
+a wall 1 step left",0,False
+52,Failed to obtain a valid action from the reasoning.,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 5 steps forward
+a wall 1 step left",0,False
+53,Failed to obtain a valid action from the reasoning.,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 4 steps forward
+a wall 1 step left",0,False
+54,Failed to obtain a valid action from the reasoning.,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 3 steps forward
+a wall 1 step left",0,False
+55,left,<|ACTION|>left<|END|>,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 2 steps forward
+a wall 1 step left",0,False
+56,Failed to obtain a valid action from the reasoning.,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step left",0,False
+57,Failed to obtain a valid action from the reasoning.,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step left",0,False
+58,Failed to obtain a valid action from the reasoning.,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step left",0,False
+59,Failed to obtain a valid action from the reasoning.,<|Go forward|>GO_forward<|END|>,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step left",0,False
+60,Failed to obtain a valid action from the reasoning.,<|Go forward|>GO_forward<|END|>,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step left",0,False
+61,Failed to obtain a valid action from the reasoning.,<|Go forward|>GO_forward<|END|>,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step left",0,False
+62,Failed to obtain a valid action from the reasoning.,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step left",0,False
+63,Failed to obtain a valid action from the reasoning.,,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step left",0,True

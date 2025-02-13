@@ -38,7 +38,7 @@ pip install vllm numpy==1.23
 vllm serve meta-llama/Llama-3.2-1B-Instruct --port 8080
 
 python eval.py \
-  agent.type=naive \
+  agent.type=robust_cot \
   agent.max_image_history=0 \
   agent.max_history=16 \
   eval.num_workers=32 \

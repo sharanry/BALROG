@@ -1,0 +1,187 @@
+Step,Action,Reasoning,Observation,Reward,Done
+0,go forward,"I will choose to go forward.
+
+<|ACTION|>go forward<|END|>","a wall 1 step forward
+a wall 1 step left",0,False
+1,go forward,"I will choose to go forward.
+
+<|ACTION|>go forward<|END|>","a wall 1 step forward
+a wall 1 step left",0,False
+2,go forward,"I will choose to go forward.
+
+<|ACTION|>go forward<|END|>","a wall 1 step forward
+a wall 1 step left",0,False
+3,go forward,"I will choose to go forward.
+
+<|ACTION|>go forward<|END|>","a wall 1 step forward
+a wall 1 step left",0,False
+4,Failed to obtain a valid action from the reasoning.,I think I'll choose to pick up the wall 1 step left.,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step left",0,False
+5,go forward,<|ACTION|>go forward<|END|>,"a wall 1 step forward
+a wall 1 step left",0,False
+6,Failed to obtain a valid action from the reasoning.,go forward,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step left",0,False
+7,go forward,<|ACTION|>go forward<|END|>,"a wall 1 step forward
+a wall 1 step left",0,False
+8,go forward,<|ACTION|>go forward<|END|>,"a wall 1 step forward
+a wall 1 step left",0,False
+9,go forward,<|ACTION|>go forward<|END|>,"a wall 1 step forward
+a wall 1 step left",0,False
+10,go forward,<|ACTION|>go forward<|END|>,"a wall 1 step forward
+a wall 1 step left",0,False
+11,go forward,<|ACTION|>go forward<|END|>,"a wall 1 step forward
+a wall 1 step left",0,False
+12,go forward,<|ACTION|>go forward<|END|>,"a wall 1 step forward
+a wall 1 step left",0,False
+13,go forward,<|ACTION|>go forward<|END|>,"a wall 1 step forward
+a wall 1 step left",0,False
+14,go forward,<|ACTION|>go forward<|END|>,"a wall 1 step forward
+a wall 1 step left",0,False
+15,Failed to obtain a valid action from the reasoning.,go forward,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step left",0,False
+16,Failed to obtain a valid action from the reasoning.,go forward,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step left",0,False
+17,go forward,<|ACTION|>go forward<|END|>,"a wall 1 step forward
+a wall 1 step left",0,False
+18,go forward,<|ACTION|>go forward<|END|>,"a wall 1 step forward
+a wall 1 step left",0,False
+19,Failed to obtain a valid action from the reasoning.,go forward,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step left",0,False
+20,go forward,<|ACTION|>go forward<|END|>,"a wall 1 step forward
+a wall 1 step left",0,False
+21,go forward,<|ACTION|>go forward<|END|>,"a wall 1 step forward
+a wall 1 step left",0,False
+22,go forward,<|ACTION|>go forward<|END|>,"a wall 1 step forward
+a wall 1 step left",0,False
+23,go forward,<|ACTION|>go forward<|END|>,"a wall 1 step forward
+a wall 1 step left",0,False
+24,Failed to obtain a valid action from the reasoning.,go forward,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step left",0,False
+25,go forward,<|ACTION|>go forward<|END|>,"a wall 1 step forward
+a wall 1 step left",0,False
+26,go forward,<|ACTION|>go forward<|END|>,"a wall 1 step forward
+a wall 1 step left",0,False
+27,go forward,<|ACTION|>go forward<|END|>,"a wall 1 step forward
+a wall 1 step left",0,False
+28,go forward,<|ACTION|>go forward<|END|>,"a wall 1 step forward
+a wall 1 step left",0,False
+29,go forward,<|ACTION|>go forward<|END|>,"a wall 1 step forward
+a wall 1 step left",0,False
+30,go forward,<|ACTION|>go forward<|END|>,"a wall 1 step forward
+a wall 1 step left",0,False
+31,Failed to obtain a valid action from the reasoning.,go forward,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step left",0,False
+32,go forward,<|ACTION|>go forward<|END|>,"a wall 1 step forward
+a wall 1 step left",0,False
+33,go forward,<|ACTION|>go forward<|END|>,"a wall 1 step forward
+a wall 1 step left",0,False
+34,go forward,<|ACTION|>go forward<|END|>,"a wall 1 step forward
+a wall 1 step left",0,False
+35,go forward,<|ACTION|>go forward<|END|>,"a wall 1 step forward
+a wall 1 step left",0,False
+36,go forward,<|ACTION|>go forward<|END|>,"a wall 1 step forward
+a wall 1 step left",0,False
+37,go forward,<|ACTION|>go forward<|END|>,"a wall 1 step forward
+a wall 1 step left",0,False
+38,go forward,<|ACTION|>go forward<|END|>,"a wall 1 step forward
+a wall 1 step left",0,False
+39,go forward,<|ACTION|>go forward<|END|>,"a wall 1 step forward
+a wall 1 step left",0,False
+40,go forward,<|ACTION|>go forward<|END|>,"a wall 1 step forward
+a wall 1 step left",0,False
+41,go forward,<|ACTION|>go forward<|END|>,"a wall 1 step forward
+a wall 1 step left",0,False
+42,go forward,<|ACTION|>go forward<|END|>,"a wall 1 step forward
+a wall 1 step left",0,False
+43,Failed to obtain a valid action from the reasoning.,go forward,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step left",0,False
+44,Failed to obtain a valid action from the reasoning.,go forward,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step left",0,False
+45,go forward,<|ACTION|>go forward<|END|>,"a wall 1 step forward
+a wall 1 step left",0,False
+46,go forward,<|ACTION|>go forward<|END|>,"a wall 1 step forward
+a wall 1 step left",0,False
+47,go forward,<|ACTION|>go forward<|END|>,"a wall 1 step forward
+a wall 1 step left",0,False
+48,go forward,<|ACTION|>go forward<|END|>,"a wall 1 step forward
+a wall 1 step left",0,False
+49,go forward,<|ACTION|>go forward<|END|>,"a wall 1 step forward
+a wall 1 step left",0,False
+50,go forward,<|ACTION|>go forward<|END|>,"a wall 1 step forward
+a wall 1 step left",0,False
+51,go forward,<|ACTION|>go forward<|END|>,"a wall 1 step forward
+a wall 1 step left",0,False
+52,go forward,<|ACTION|>go forward<|END|>,"a wall 1 step forward
+a wall 1 step left",0,False
+53,go forward,<|ACTION|>go forward<|END|>,"a wall 1 step forward
+a wall 1 step left",0,False
+54,go forward,<|ACTION|>go forward<|END|>,"a wall 1 step forward
+a wall 1 step left",0,False
+55,go forward,<|ACTION|>go forward<|END|>,"a wall 1 step forward
+a wall 1 step left",0,False
+56,go forward,<|ACTION|>go forward<|END|>,"a wall 1 step forward
+a wall 1 step left",0,False
+57,go forward,<|ACTION|>go forward<|END|>,"a wall 1 step forward
+a wall 1 step left",0,False
+58,Failed to obtain a valid action from the reasoning.,go forward,"
+
+Your previous output did not contain a valid action. Defaulted to action: go forward
+
+Observation:
+a wall 1 step forward
+a wall 1 step left",0,False
+59,go forward,<|ACTION|>go forward<|END|>,"a wall 1 step forward
+a wall 1 step left",0,False
+60,go forward,<|ACTION|>go forward<|END|>,"a wall 1 step forward
+a wall 1 step left",0,False
+61,go forward,<|ACTION|>go forward<|END|>,"a wall 1 step forward
+a wall 1 step left",0,False
+62,go forward,<|ACTION|>go forward<|END|>,"a wall 1 step forward
+a wall 1 step left",0,False
+63,go forward,<|ACTION|>go forward<|END|>,"a wall 1 step forward
+a wall 1 step left",0,True
