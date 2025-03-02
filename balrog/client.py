@@ -184,7 +184,18 @@ class OpenAIWrapper(LLMClientWrapper):
         """
         self._initialize_client()
         converted_messages = self.convert_messages(messages)
-
+        
+        # # Create prompt_logs directory if it doesn't exist
+        # os.makedirs("prompt_logs", exist_ok=True)
+        
+        # # Create log file with timestamp
+        # timestamp = datetime.datetime.now().strftime("%Y%m%d_%H%M%S_%f")
+        # log_file = f"prompt_logs/prompt_{timestamp}.txt"
+        
+        # # Write converted messages to log file
+        # with open(log_file, "w") as f:
+        #     f.write(f"Converted messages:\n{converted_messages}")
+            
         def api_call():
             return self.client.chat.completions.create(
                 messages=converted_messages,

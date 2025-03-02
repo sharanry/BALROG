@@ -13,7 +13,7 @@ eval:
   num_workers: 16        # Number of parallel workers. Increase for faster evaluation if you have enough resources
   num_episodes:          # Minimum number of episodes to run for each environment. You can optionally increase this to get more reliable results
     nle: 5               # Number of episodes for the 'nle' environment
-    minihack: 5          # Number of episodes for each 'minihack' task
+    minihack: 1          # Number of episodes for each 'minihack' task
     babyai: 10           # Number of episodes for each 'babyai' task
     crafter: 10          # Number of episodes for the 'crafter' environment
     babaisai: 3          # Number of episodes for each 'babaisai' task
@@ -27,8 +27,9 @@ eval:
 
 client:
   client_name: openrouter           # LLM client to use (e.g., 'openai', 'gemini', 'claude')
-  model_id: meta-llama/llama-3.2-1b-instruct
+  # model_id: meta-llama/llama-3.2-1b-instruct
   # model_id: deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B
+  model_id: deepseek/deepseek-r1-distill-llama-70b
   base_url: https://openrouter.ai/api/v1   # Base URL for the API (if using a local server)
   generate_kwargs:
     temperature: 0.0            # Sampling temperature; 0.0 makes the output deterministic
@@ -40,7 +41,7 @@ client:
 
 envs:
   # names: babyai-babaisai-textworld-crafter-nle-minihack   # Environments to evaluate, separated by hyphens
-  names: babyai   # Environments to evaluate, separated by hyphens
+  names: minihack   # Environments to evaluate, separated by hyphens
   env_kwargs:
     seed: null                # Random seed; null means a random seed is used
   nle_kwargs:
@@ -86,14 +87,17 @@ tasks:
     - NetHackChallenge-v0       # Tasks for the NLE environment
 
   minihack_tasks:
-    - "MiniHack-Boxoban-Hard-v0"
-    - "MiniHack-Boxoban-Medium-v0"
-    - "MiniHack-MazeWalk-9x9-v0"
-    - "MiniHack-MazeWalk-15x15-v0"
-    - "MiniHack-Corridor-R3-v0"
-    - "MiniHack-CorridorBattle-Dark-v0"
-    - "MiniHack-Quest-Easy-v0"
-    - "MiniHack-Quest-Medium-v0"
+    # - "MiniHack-Room-5x5-v0" #100%
+    - "MiniHack-KeyRoom-S5-v0"
+    # - "MiniHack-Corridor-R2-v0" # not making much progress after a few steps
+    # - "MiniHack-Boxoban-Hard-v0"
+    # - "MiniHack-Boxoban-Medium-v0"
+    # - "MiniHack-MazeWalk-9x9-v0"
+    # - "MiniHack-MazeWalk-15x15-v0"
+    # - "MiniHack-Corridor-R3-v0"
+    # - "MiniHack-CorridorBattle-Dark-v0"
+    # - "MiniHack-Quest-Easy-v0"
+    # - "MiniHack-Quest-Medium-v0"
 
   crafter_tasks:
     - "default"                 # Tasks for Crafter
