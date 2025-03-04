@@ -1,0 +1,43 @@
+Step,Action,Reasoning,Observation,Reward,Done
+0,east,"<|QUERY|>explore the dungeon<|END|>
+<|ACTION|>east<|END|>","message:
+
+
+language observation:
+dark area far east
+vertical closed door near east
+vertical wall near west
+horizontal wall very near north, northeast, southeast, south, southwest, and northwest
+tame pony adjacent south
+stairs up adjacent west
+
+cursor:
+Yourself a knight
+(x=35, y=18)
+
+map:
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                ------- -                                       
+                                |.......|                                       
+                                |.<@....+                                       
+                                |..u....|                                       
+                                ---------                                       
+                                                                                
+Agent the Gallant              St:14 Dx:8 Co:12 In:9 Wi:15 Ch:17 Lawful S:0     
+Dlvl:1 $:0 HP:16(16) Pw:3(3) AC:3 Xp:1/0 T:2                                    
+
+",0.0,False

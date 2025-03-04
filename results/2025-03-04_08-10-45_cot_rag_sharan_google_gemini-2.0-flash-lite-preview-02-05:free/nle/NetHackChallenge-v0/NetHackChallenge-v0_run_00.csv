@@ -1,0 +1,176 @@
+Step,Action,Reasoning,Observation,Reward,Done
+0,east,"<|QUERY|>scroll of magic mapping<|END|>
+<|ACTION|>east<|END|>","message:
+
+
+language observation:
+horizontal wall near north and northwest
+doorway near northeast
+dark area near northeast
+scroll labeled KO BATE near eastsoutheast
+vertical wall near west
+horizontal wall very near southeast, south, and southwest
+tame kitten very near westnorthwest
+stairs up adjacent west
+
+cursor:
+Yourself a wizard
+(x=35, y=18)
+
+map:
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                               -------.-------                                  
+                               |.............|                                  
+                               |.f...........|                                  
+                               |..<@..........                                  
+                               |......?......|                                  
+                               ---------------                                  
+                                                                                
+Agent the Evoker               St:11 Dx:14 Co:13 In:16 Wi:12 Ch:9 Neutral S:0   
+Dlvl:1 $:0 HP:11(11) Pw:8(8) AC:9 Xp:1/0 T:2                                    
+
+",0.0,False
+1,more,"<|QUERY|>scroll of magic mapping<|END|>
+<|ACTION|>more<|END|>","message:
+Unknown command '^M'.
+
+language observation:
+horizontal wall near north and northwest
+doorway near northeast
+dark area near northeast
+scroll labeled KO BATE near eastsoutheast
+vertical wall near west
+horizontal wall very near southeast, south, and southwest
+tame kitten very near westnorthwest
+stairs up adjacent west
+
+cursor:
+Yourself a wizard
+(x=35, y=18)
+
+map:
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                               -------.-------                                  
+                               |.............|                                  
+                               |.f...........|                                  
+                               |..<@..........                                  
+                               |......?......|                                  
+                               ---------------                                  
+                                                                                
+Agent the Evoker               St:11 Dx:14 Co:13 In:16 Wi:12 Ch:9 Neutral S:0   
+Dlvl:1 $:0 HP:11(11) Pw:8(8) AC:9 Xp:1/0 T:2                                    
+
+",0.0,False
+2,east,"<|QUERY|>scroll of magic mapping<|END|>
+<|ACTION|>east<|END|>","message:
+
+
+language observation:
+doorway far east
+horizontal wall near north, northeast, and northwest
+vertical wall near west
+scroll labeled KO BATE very near eastsoutheast
+horizontal wall very near southeast, south, and southwest
+stairs up very near west
+tame kitten adjacent southwest
+
+cursor:
+Yourself a wizard
+(x=36, y=18)
+
+map:
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                               -------.-------                                  
+                               |.............|                                  
+                               |.............|                                  
+                               |..<.@.........                                  
+                               |...f..?......|                                  
+                               ---------------                                  
+                                                                                
+Agent the Evoker               St:11 Dx:14 Co:13 In:16 Wi:12 Ch:9 Neutral S:0   
+Dlvl:1 $:0 HP:11(11) Pw:8(8) AC:9 Xp:1/0 T:3                                    
+
+",0.0,False
+3,east,"<|QUERY|>scroll of magic mapping<|END|>
+<|ACTION|>east<|END|>","message:
+
+
+language observation:
+doorway far east
+dark area far east
+vertical wall far west
+horizontal wall near north, northeast, and northwest
+stairs up near west
+horizontal wall very near southeast, south, and southwest
+scroll labeled KO BATE adjacent southeast
+tame kitten adjacent southwest
+
+cursor:
+Yourself a wizard
+(x=37, y=18)
+
+map:
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                               -------.-------                                  
+                               |.............|                                  
+                               |.............|                                  
+                               |..<..@........                                  
+                               |....f.?......|                                  
+                               ---------------                                  
+                                                                                
+Agent the Evoker               St:11 Dx:14 Co:13 In:16 Wi:12 Ch:9 Neutral S:0   
+Dlvl:1 $:0 HP:11(11) Pw:8(8) AC:9 Xp:1/0 T:4                                    
+
+",0.0,False

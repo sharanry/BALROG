@@ -1,0 +1,261 @@
+Step,Action,Reasoning,Observation,Reward,Done
+0,west,"<|NO_QUERY|><|END|>
+<|ACTION|>west<|END|>","message:
+
+
+language observation:
+doorway far west
+dark area far west
+horizontal wall near north and northwest
+northeast room corner near northeast
+vertical wall near east
+grid bug near west
+tame little dog adjacent north
+stairs up adjacent east
+horizontal wall adjacent southeast, south, and southwest
+
+cursor:
+Yourself a monk
+(x=70, y=15)
+
+map:
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                              - ----------      
+                                                              ...........|      
+                                                              |.......d..|      
+                                                              .....x..@<.|      
+                                                              ------------      
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+Agent the Candidate            St:17 Dx:14 Co:12 In:9 Wi:14 Ch:9 Lawful S:0     
+Dlvl:1 $:0 HP:14(14) Pw:4(4) AC:4 Xp:1/0 T:2                                    
+
+",0.0,False
+1,east,"<|NO_QUERY|><|END|>
+<|ACTION|>east<|END|>","message:
+
+
+language observation:
+doorway far west
+horizontal wall near north and northwest
+grid bug near west
+vertical wall very near northeast and east
+tame little dog adjacent northeast
+horizontal wall adjacent southeast, south, and southwest
+
+cursor:
+Yourself a monk
+(x=71, y=15)
+
+map:
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                              - ----------      
+                                                              ...........|      
+                                                              |.........d|      
+                                                              ......x..@.|      
+                                                              ------------      
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+Agent the Candidate            St:17 Dx:14 Co:12 In:9 Wi:14 Ch:9 Lawful S:0     
+Dlvl:1 $:0 HP:14(14) Pw:4(4) AC:4 Xp:1/0 T:3                                    
+
+",0.0,False
+2,west,"<|QUERY|>monk class starting strategy<|END|>
+<|ACTION|>west<|END|>","message:
+
+
+language observation:
+doorway far west
+dark area far west
+horizontal wall near north and northwest
+northeast room corner near northeast
+vertical wall near east
+tame little dog adjacent east
+horizontal wall adjacent southeast, south, and southwest
+grid bug adjacent west
+
+cursor:
+Yourself a monk
+(x=70, y=15)
+
+map:
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                              - ----------      
+                                                              ...........|      
+                                                              |..........|      
+                                                              .......x@d.|      
+                                                              ------------      
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+Agent the Candidate            St:17 Dx:14 Co:12 In:9 Wi:14 Ch:9 Lawful S:0     
+Dlvl:1 $:0 HP:14(14) Pw:4(4) AC:4 Xp:1/0 T:3                                    
+
+",0.0,False
+3,east,"<|QUERY|>grid bug nethack behavior<|END|>
+<|ACTION|>east<|END|>","message:
+You swap places with your little dog.
+
+language observation:
+doorway far west
+horizontal wall near north and northwest
+vertical wall very near northeast and east
+grid bug very near west
+horizontal wall adjacent southeast, south, and southwest
+tame little dog adjacent west
+
+cursor:
+Yourself a monk
+(x=71, y=15)
+
+map:
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                              - ----------      
+                                                              ...........|      
+                                                              |..........|      
+                                                              .......xd@.|      
+                                                              ------------      
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+Agent the Candidate            St:17 Dx:14 Co:12 In:9 Wi:14 Ch:9 Lawful S:0     
+Dlvl:1 $:0 HP:14(14) Pw:4(4) AC:4 Xp:1/0 T:4                                    
+
+",0.0,False
+4,west,"<|QUERY|>dog swap game mechanic<|END|>
+<|ACTION|>west<|END|>","message:
+You stop.  Your little dog is in the way! The little dog misses the grid bug.
+
+language observation:
+doorway far west
+horizontal wall near north and northwest
+vertical wall very near northeast and east
+grid bug very near westnorthwest
+horizontal wall adjacent southeast, south, and southwest
+tame little dog adjacent west
+
+cursor:
+Yourself a monk
+(x=71, y=15)
+
+map:
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                              - ----------      
+                                                              ...........|      
+                                                              |......x...|      
+                                                              ........d@.|      
+                                                              ------------      
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+Agent the Candidate            St:17 Dx:14 Co:12 In:9 Wi:14 Ch:9 Lawful S:0     
+Dlvl:1 $:0 HP:14(14) Pw:4(4) AC:4 Xp:1/0 T:5                                    
+
+",0.0,False
+5,west,"<|NO_QUERY|><|END|>
+<|ACTION|>west<|END|>","message:
+You swap places with your little dog.
+
+language observation:
+doorway far west
+dark area far west
+horizontal wall near north and northwest
+northeast room corner near northeast
+vertical wall near east
+tame little dog very near eastnortheast
+grid bug adjacent north
+stairs up adjacent east
+horizontal wall adjacent southeast, south, and southwest
+
+cursor:
+Yourself a monk
+(x=70, y=15)
+
+map:
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                              - ----------      
+                                                              ...........|      
+                                                              |.......x.d|      
+                                                              ........@<.|      
+                                                              ------------      
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+Agent the Candidate            St:17 Dx:14 Co:12 In:9 Wi:14 Ch:9 Lawful S:0     
+Dlvl:1 $:0 HP:14(14) Pw:4(4) AC:4 Xp:1/0 T:6                                    
+
+",0.0,False

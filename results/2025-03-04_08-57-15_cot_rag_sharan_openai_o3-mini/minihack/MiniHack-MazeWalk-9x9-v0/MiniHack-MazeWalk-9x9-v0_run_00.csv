@@ -1,0 +1,41 @@
+Step,Action,Reasoning,Observation,Reward,Done
+0,east,"<|NO_QUERY|><|END|>
+<|ACTION|>east<|END|>","message:
+Hello Agent, welcome to NetHack!  You are a neutral female gnomish
+
+language observation:
+dark area far east
+dark area very near southwest and west
+dark area adjacent north, northeast, southeast, south, and northwest
+stairs up adjacent west
+
+cursor:
+Yourself a archeologist
+(x=37, y=8)
+
+map:
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                    <@.....                                     
+                                    .                                           
+                                    .                                           
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+Agent the Digger               St:13 Dx:9 Co:13 In:13 Wi:18 Ch:9 Neutral S:0    
+Dlvl:1 $:0 HP:12(12) Pw:3(3) AC:9 Xp:1/0                                        
+
+",0.0,False

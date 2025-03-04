@@ -1,0 +1,15 @@
+{
+    "progression_percentage": 0.0,
+    "standard_error": 0.0,
+    "average_steps": 76.75,
+    "episodes_played": 4,
+    "tasks": {
+        "MiniHack-Quest-Easy-v0": {
+            "progression_percentage": 0.0,
+            "standard_error": 0.0,
+            "episodes_played": 4
+        }
+    },
+    "input_tokens": 1427197,
+    "output_tokens": 71748
+}

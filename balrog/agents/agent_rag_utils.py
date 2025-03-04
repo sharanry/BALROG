@@ -9,7 +9,7 @@ class NethackWikiSearch:
     """Handles parsing, indexing, and searching MediaWiki XML dumps with FAISS."""
     
     def __init__(self, config):
-        self.model = SentenceTransformer(config.agent.embedding_model)
+        self.model = SentenceTransformer(config.agent.embedding_model, device="cpu")
         # self.wiki_path = config.agent.nethack_wiki
         self.faiss_index_path = config.agent.nethack_wiki_index
         self.storage_path = config.agent.nethack_wiki_store

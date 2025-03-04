@@ -43,8 +43,14 @@ class ChainOfThoughtAgent(BaseAgent):
         messages = self.prompt_builder.get_prompt()
 
         query_instructions = """
-        Asses the current situation properly. Now imagine that you have a information rich document for NetHac containing all the things that you encounter in game. 
-        Output a concise 4-5 words sentence of what you would like to get from the document. For example: "fountain", or "defeat a fox?" Reply in the form of: QUESTION: <question>
+NetHack wiki has the following information:
+- game mechanics and optimal strategies 
+- characters in the game and their abilities 
+- weapons or objects that you find in the game. 
+
+Output a concise 4-5 words query sentence of what you would like to retrieve from the wiki. For example: "fountain", or "defeat a fox?" 
+
+Reply in the format: QUESTION: <question>
         """.strip()
 
         query_message = copy.deepcopy(messages)
@@ -68,11 +74,8 @@ class ChainOfThoughtAgent(BaseAgent):
         # logger.info(f"Retrieved docs 2nd: {retrieved_docs[1][:100]}")
         # logger.info(f"Retrieved docs 3rd: {retrieved_docs[2][:100]}")
 
-
-        rag_instructions = """
-        Now go through the retrieved documents and consider the information they provide. The documents are there to help you make an informed decision.
-        """
-        rag_instructions += "\n\n" + "Here are the retrieved documents:\n\n"
+ 
+        rag_instructions += "\n\n" + "RETRIEVED DOCUMENTS:\n\n"
         for doc in retrieved_docs:
             rag_instructions += doc + "\n\n"
         rag_instructions.strip()
@@ -83,8 +86,9 @@ class ChainOfThoughtAgent(BaseAgent):
 
         # Add CoT-specific instructions to the prompt
         cot_instructions = """
-Now think about what's the best course of action step by step. The retrieved documents might not be completely accurate, so use your best judgement.
-Finally, provide a valid single output action (**crosscheck that the output action is a valid action given in the list of actions**) at the end of the message in the form of: ACTION: <action>
+Now think about what's the best course of action step by step.
+Finally, provide a valid single output action at the end of the message in the form of: 
+ACTION: <action>
         """.strip()
 
         messages[-1].content += "\n\n" + cot_instructions

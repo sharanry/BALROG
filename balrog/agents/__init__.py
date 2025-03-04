@@ -2,6 +2,7 @@ from balrog.client import create_llm_client
 
 from ..prompt_builder import create_prompt_builder
 from .chain_of_thought import ChainOfThoughtAgent
+from .cot_rag_sharan import CotRagSharanAgent
 from .custom import CustomAgent
 from .dummy import DummyAgent
 from .few_shot import FewShotAgent
@@ -62,5 +63,7 @@ class AgentFactory:
             return RobustCoTAgent(client_factory, prompt_builder, config=self.config)
         elif self.config.agent.type == "robust_cot_improved":
             return RobustCoTImprovedAgent(client_factory, prompt_builder, config=self.config)
+        elif self.config.agent.type == "cot_rag_sharan":
+            return CotRagSharanAgent(client_factory, prompt_builder, config=self.config)
         else:
             raise ValueError(f"Unknown agent type: {self.config.agent}")

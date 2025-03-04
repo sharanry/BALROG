@@ -1,0 +1,79 @@
+Step,Action,Reasoning,Observation,Reward,Done
+0,north,"<|NO_QUERY|><|END|>
+<|ACTION|>north<|END|>","message:
+
+
+language observation:
+dark area near east, south, and west
+dark area adjacent north, northeast, southeast, southwest, and northwest
+stairs up adjacent south
+
+cursor:
+Yourself a ranger
+(x=38, y=8)
+
+map:
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                    ..@....                                     
+                                      <                                         
+                                    ...                                         
+                                    . .                                         
+                                      .                                         
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+Agent the Tenderfoot           St:18 Dx:10 Co:14 In:13 Wi:13 Ch:7 Chaotic S:0   
+Dlvl:1 $:0 HP:14(14) Pw:3(3) AC:7 Xp:1/0                                        
+
+",0.0,False
+1,south,"<|NO_QUERY|><|END|>
+<|ACTION|>south<|END|>","message:
+
+
+language observation:
+dark area near south and southwest
+dark area very near north, northeast, and northwest
+dark area adjacent east, southeast, and west
+
+cursor:
+Yourself a ranger
+(x=38, y=9)
+
+map:
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                    .......                                     
+                                      @                                         
+                                    ...                                         
+                                    . .                                         
+                                      .                                         
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+Agent the Tenderfoot           St:18 Dx:10 Co:14 In:13 Wi:13 Ch:7 Chaotic S:0   
+Dlvl:1 $:0 HP:14(14) Pw:3(3) AC:7 Xp:1/0                                        
+
+",0.0,False

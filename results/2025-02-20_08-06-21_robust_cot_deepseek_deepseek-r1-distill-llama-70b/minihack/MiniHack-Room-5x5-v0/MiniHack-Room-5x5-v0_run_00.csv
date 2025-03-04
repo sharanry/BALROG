@@ -1,0 +1,196 @@
+Step,Action,Reasoning,Observation,Reward,Done
+0,southeast,<|ACTION|>southeast<|END|>,"message:
+
+
+language observation:
+dark area near east, southeast, and south
+stairs down near southeast
+dark area very near north, northeast, southwest, west, and northwest
+stairs up adjacent northwest
+
+cursor:
+Yourself a monk
+(x=37, y=11)
+
+map:
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                    <....                                       
+                                    .@...                                       
+                                    .....                                       
+                                    .....                                       
+                                    ....>                                       
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+Agent the Candidate            St:18/02 Dx:13 Co:11 In:8 Wi:14 Ch:9 Chaotic S:0 
+Dlvl:1 $:0 HP:14(14) Pw:4(4) AC:4 Xp:1/0                                        
+
+",0.0,False
+1,south,<|ACTION|>south<|END|>,"message:
+
+
+language observation:
+dark area near north, northeast, east, southeast, and south
+stairs down near eastsoutheast
+dark area very near southwest, west, and northwest
+stairs up very near northnorthwest
+
+cursor:
+Yourself a monk
+(x=37, y=12)
+
+map:
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                    <....                                       
+                                    .....                                       
+                                    .@...                                       
+                                    .....                                       
+                                    ....>                                       
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+Agent the Candidate            St:18/02 Dx:13 Co:11 In:8 Wi:14 Ch:9 Chaotic S:0 
+Dlvl:1 $:0 HP:14(14) Pw:4(4) AC:4 Xp:1/0                                        
+
+",0.0,False
+2,east,<|ACTION|>east<|END|>,"message:
+
+
+language observation:
+dark area near north, northeast, east, southeast, south, southwest, west, and northwest
+stairs down very near southeast
+stairs up very near northwest
+
+cursor:
+Yourself a monk
+(x=38, y=12)
+
+map:
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                    <....                                       
+                                    .....                                       
+                                    ..@..                                       
+                                    .....                                       
+                                    ....>                                       
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+Agent the Candidate            St:18/02 Dx:13 Co:11 In:8 Wi:14 Ch:9 Chaotic S:0 
+Dlvl:1 $:0 HP:14(14) Pw:4(4) AC:4 Xp:1/0                                        
+
+",-0.01,False
+3,southeast,<|ACTION|>southeast<|END|>,"message:
+
+
+language observation:
+dark area near north, west, and northwest
+stairs up near northwest
+dark area very near northeast, east, southeast, south, and southwest
+stairs down adjacent southeast
+
+cursor:
+Yourself a monk
+(x=39, y=13)
+
+map:
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                    <....                                       
+                                    .....                                       
+                                    .....                                       
+                                    ...@.                                       
+                                    ....>                                       
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+Agent the Candidate            St:18/02 Dx:13 Co:11 In:8 Wi:14 Ch:9 Chaotic S:0 
+Dlvl:1 $:0 HP:14(14) Pw:4(4) AC:4 Xp:1/0                                        
+
+",0.0,False
+4,southeast,<|ACTION|>southeast<|END|>,"message:
+ 
+No  Points     Name                                                   Hp [max]
+0  Agent-Mon-Hum-Fem-Cha quit in The Dungeons of Doom on
+level 1.                                               14  [14]
+
+
+language observation:
+dark area adjacent east, southeast, and south
+
+cursor:
+very far eastsoutheast 
+(x=77, y=6)
+
+map:
+ No  Points     Name                                                   Hp [max] 
+                                                                                
+            0  Agent-Mon-Hum-Fem-Cha quit in The Dungeons of Doom on            
+                                                                                
+              level 1.                                               14  [14]   
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+
+",1.0,True

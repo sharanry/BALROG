@@ -1,0 +1,318 @@
+Step,Action,Reasoning,Observation,Reward,Done
+0,move far east,<|ACTION|>move far east<|END|>,"
+
+Your previous output did not contain a valid action. Defaulted to action: north
+
+Observation:
+message:
+
+
+language observation:
+jackals far eastsoutheast
+lava near east and southeast
+area of lava near eastsoutheast
+horizontal wall near southeast and south
+vertical wall very near southwest and west
+horizontal wall adjacent north, northeast, and northwest
+horn adjacent south
+
+cursor:
+Yourself a knight
+(x=26, y=9)
+
+map:
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                        --------------                                          
+                        |.@...}......---                                        
+                        |.(...}........-                                        
+                        |.....}.....................|                           
+                        |.....}...d....--------     |                           
+                        |.....}...d..---                                        
+                        --------------                                          
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+Agent the Gallant              St:16 Dx:8 Co:12 In:7 Wi:14 Ch:18 Lawful S:0     
+Dlvl:1 $:0 HP:16(16) Pw:4(4) AC:3 Xp:1/0                                        
+
+",0.0,False
+1,far east,<|ACTION|>far east<|END|>,"message:
+You stop at the edge of the lava.
+
+language observation:
+southwest corner far east
+horizontal wall near southeast and south
+area of lava near southsoutheast
+southwest corner near southwest
+horn near westsouthwest
+vertical wall near west
+jackal very near east and eastsoutheast
+lava very near southsoutheast
+horizontal wall adjacent north, northeast, and northwest
+lava adjacent east and southeast
+
+cursor:
+Yourself a knight
+(x=29, y=9)
+
+map:
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                        --------------                                          
+                        |....@}d.....---                                        
+                        |.(...}d.......-                                        
+                        |.....}.....................|                           
+                        |.....}........--------     |                           
+                        |.....}......---                                        
+                        --------------                                          
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+Agent the Gallant              St:16 Dx:8 Co:12 In:7 Wi:14 Ch:18 Lawful S:0     
+Dlvl:1 $:0 HP:16(16) Pw:4(4) AC:3 Xp:1/0                                        
+
+",0.0,False
+2,north,<|ACTION|>north<|END|>,"message:
+It's a wall.
+
+language observation:
+southwest corner far east
+horizontal wall near southeast and south
+area of lava near southsoutheast
+southwest corner near southwest
+horn near westsouthwest
+vertical wall near west
+jackal very near east and eastsoutheast
+lava very near southsoutheast
+horizontal wall adjacent north, northeast, and northwest
+lava adjacent east and southeast
+
+cursor:
+Yourself a knight
+(x=29, y=9)
+
+map:
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                        --------------                                          
+                        |....@}d.....---                                        
+                        |.(...}d.......-                                        
+                        |.....}.....................|                           
+                        |.....}........--------     |                           
+                        |.....}......---                                        
+                        --------------                                          
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+Agent the Gallant              St:16 Dx:8 Co:12 In:7 Wi:14 Ch:18 Lawful S:0     
+Dlvl:1 $:0 HP:16(16) Pw:4(4) AC:3 Xp:1/0                                        
+
+",-0.01,False
+3,Failed to obtain a valid action from the reasoning.,<|Action|>north<|END|>,"
+
+Your previous output did not contain a valid action. Defaulted to action: north
+
+Observation:
+message:
+It's a wall.
+
+language observation:
+southwest corner far east
+horizontal wall near southeast and south
+area of lava near southsoutheast
+southwest corner near southwest
+horn near westsouthwest
+vertical wall near west
+jackal very near east and eastsoutheast
+lava very near southsoutheast
+horizontal wall adjacent north, northeast, and northwest
+lava adjacent east and southeast
+
+cursor:
+Yourself a knight
+(x=29, y=9)
+
+map:
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                        --------------                                          
+                        |....@}d.....---                                        
+                        |.(...}d.......-                                        
+                        |.....}.....................|                           
+                        |.....}........--------     |                           
+                        |.....}......---                                        
+                        --------------                                          
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+Agent the Gallant              St:16 Dx:8 Co:12 In:7 Wi:14 Ch:18 Lawful S:0     
+Dlvl:1 $:0 HP:16(16) Pw:4(4) AC:3 Xp:1/0                                        
+
+",-0.01,False
+4,north,<|ACTION|>north<|END|>,"message:
+It's a wall.
+
+language observation:
+southwest corner far east
+horizontal wall near southeast and south
+area of lava near southsoutheast
+southwest corner near southwest
+horn near westsouthwest
+vertical wall near west
+jackal very near east and eastsoutheast
+lava very near southsoutheast
+horizontal wall adjacent north, northeast, and northwest
+lava adjacent east and southeast
+
+cursor:
+Yourself a knight
+(x=29, y=9)
+
+map:
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                        --------------                                          
+                        |....@}d.....---                                        
+                        |.(...}d.......-                                        
+                        |.....}.....................|                           
+                        |.....}........--------     |                           
+                        |.....}......---                                        
+                        --------------                                          
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+Agent the Gallant              St:16 Dx:8 Co:12 In:7 Wi:14 Ch:18 Lawful S:0     
+Dlvl:1 $:0 HP:16(16) Pw:4(4) AC:3 Xp:1/0                                        
+
+",-0.01,False
+5,north,<|ACTION|>north<|END|>,"message:
+It's a wall.
+
+language observation:
+southwest corner far east
+horizontal wall near southeast and south
+area of lava near southsoutheast
+southwest corner near southwest
+horn near westsouthwest
+vertical wall near west
+jackal very near east and eastsoutheast
+lava very near southsoutheast
+horizontal wall adjacent north, northeast, and northwest
+lava adjacent east and southeast
+
+cursor:
+Yourself a knight
+(x=29, y=9)
+
+map:
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                        --------------                                          
+                        |....@}d.....---                                        
+                        |.(...}d.......-                                        
+                        |.....}.....................|                           
+                        |.....}........--------     |                           
+                        |.....}......---                                        
+                        --------------                                          
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+Agent the Gallant              St:16 Dx:8 Co:12 In:7 Wi:14 Ch:18 Lawful S:0     
+Dlvl:1 $:0 HP:16(16) Pw:4(4) AC:3 Xp:1/0                                        
+
+",-0.01,False
+6,east,<|ACTION|>east<|END|>,"message:
+ 
+No  Points     Name                                                   Hp [max]
+0  Agent-Kni-Hum-Fem-Law died in The Dungeons of Doom on
+level 1.  Burned by molten lava.                        -  [16]
+
+
+language observation:
+dark area adjacent east, southeast, and south
+
+cursor:
+very far eastsoutheast 
+(x=77, y=6)
+
+map:
+ No  Points     Name                                                   Hp [max] 
+                                                                                
+            0  Agent-Kni-Hum-Fem-Law died in The Dungeons of Doom on            
+                                                                                
+              level 1.  Burned by molten lava.                        -  [16]   
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+
+",0.0,True

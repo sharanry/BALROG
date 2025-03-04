@@ -1,0 +1,90 @@
+Step,Action,Reasoning,Observation,Reward,Done
+0,east,"<|QUERY|>lichen and engagement ring<|END|>
+<|ACTION|>east<|END|>","message:
+You miss the lichen.
+
+language observation:
+vertical wall near east
+horizontal wall very near north, northeast, southeast, and south
+clear potion very near eastnortheast
+southwest corner very near southwest
+vertical wall very near west
+northwest room corner very near northwest
+tame little dog adjacent northeast
+lichen adjacent east
+engagement ring adjacent west
+
+cursor:
+Yourself a caveman
+(x=70, y=4)
+
+map:
+                                                                                
+                                                                    ------      
+                                                                    |..d!|      
+                                                                    |=@F.|      
+                                                                    -....|      
+                                                                    ------      
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+Agent the Troglodyte           St:18/01 Dx:13 Co:16 In:10 Wi:8 Ch:9 Lawful S:0  
+Dlvl:1 $:0 HP:18(18) Pw:1(1) AC:8 Xp:1/0 T:2                                    
+
+",0.0,False
+1,east,"<|QUERY|>lichen and engagement ring<|END|>
+<|ACTION|>east<|END|>","message:
+You kill the lichen!
+
+language observation:
+vertical wall near east
+horizontal wall very near north, northeast, southeast, and south
+clear potion very near eastnortheast
+southwest corner very near southwest
+vertical wall very near west
+northwest room corner very near northwest
+tame little dog adjacent east
+engagement ring adjacent west
+
+cursor:
+Yourself a caveman
+(x=70, y=4)
+
+map:
+                                                                                
+                                                                    ------      
+                                                                    |...!|      
+                                                                    |=@d.|      
+                                                                    -....|      
+                                                                    ------      
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+Agent the Troglodyte           St:18/01 Dx:13 Co:16 In:10 Wi:8 Ch:9 Lawful S:16 
+Dlvl:1 $:0 HP:18(18) Pw:1(1) AC:8 Xp:1/4 T:3                                    
+
+",16.0,False
